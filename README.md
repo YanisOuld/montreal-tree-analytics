@@ -66,7 +66,8 @@ Documentation interactive : <http://127.0.0.1:8000/docs>
 
 | Endpoint | Rôle |
 |----------|------|
-| `GET /api/trees` | Points d'arbres pour la carte. Filtres : `annee_min`, `annee_max` (**fenêtre glissante**), `arrondissement`, `essence_latin`, `remarquable`, `limit`, `offset`. |
+| `GET /api/points` | **Tous** les points géolocalisés en format colonnaire compact, pré-compressé gzip (~1,9 Mo). Chargé **une seule fois** par le front, qui filtre ensuite par année/arrondissement côté client. |
+| `GET /api/trees` | Points filtrés côté serveur (requête ponctuelle). Filtres : `annee_min`, `annee_max`, `arrondissement`, `essence_latin`, `remarquable`, `limit`, `offset`. |
 | `GET /api/species` | Table des espèces + code couleur unique (`?limit=N` pour le top N). |
 | `GET /api/arrondissements` | Liste des arrondissements. |
 | `GET /api/timeline` | Évolution annuelle (plantés par an + cumul). |
@@ -74,7 +75,9 @@ Documentation interactive : <http://127.0.0.1:8000/docs>
 
 ## Frontend (React + TypeScript + Vite)
 
-Interface carte sobre et rectangulaire : navbar, fenêtre temporelle glissante (slider par année), filtres et légende des essences. La carte (Leaflet, fond CARTO Positron) affiche chaque arbre avec la **couleur unique de son espèce**.
+Interface carte sobre et rectangulaire : navbar, fenêtre temporelle glissante (slider par année + bouton **Lire/Stop** qui déroule les années en ≤ 10 s), filtres et légende des essences. La carte (Leaflet, fond CARTO Positron) affiche chaque arbre avec la **couleur unique de son espèce**.
+
+**Performance.** Les ~335 k points sont chargés **une seule fois** au démarrage via `/api/points` (format colonnaire + gzip, ~1,9 Mo). Tout le filtrage (année, arrondissement) et l'animation se font ensuite **côté client**, sans aucun aller-retour réseau — la lecture est instantanée.
 
 ```bash
 cd frontend

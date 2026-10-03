@@ -50,9 +50,9 @@ input {
 }
 
 .brand-mark {
-  width: 14px;
-  height: 14px;
-  background: var(--accent);
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
   display: inline-block;
 }
 
@@ -132,6 +132,33 @@ input {
   color: var(--muted);
   margin-top: 4px;
   font-variant-numeric: tabular-nums;
+}
+
+/* ---- Segmented (mode) ---- */
+.segmented {
+  display: flex;
+  border: 1px solid var(--line);
+}
+
+.seg {
+  flex: 1;
+  padding: 8px 6px;
+  background: #fff;
+  border: none;
+  border-right: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.seg:last-child {
+  border-right: none;
+}
+
+.seg.active {
+  background: var(--accent);
+  color: #fff;
 }
 
 .btn-play {
@@ -283,4 +310,17 @@ input {
 .leaflet-container,
 .leaflet-control {
   border-radius: 0 !important;
+}
+
+/* Infobulle de survol (dessinée à la main sur le canvas). */
+.map-tip {
+  position: absolute;
+  z-index: 600;
+  pointer-events: none;
+  background: var(--navbar);
+  color: var(--navbar-ink);
+  font-size: 12px;
+  padding: 3px 7px;
+  border: 1px solid #202926;
+  white-space: nowrap;
 }

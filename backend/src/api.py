@@ -9,17 +9,22 @@ Pré-requis : avoir généré la couche gold via ``uv run python src/main.py``.
 
 from __future__ import annotations
 
+import gzip
+import json
 from contextlib import asynccontextmanager
 from typing import Any
 
 import pandas as pd
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 
 import config
 
-# Données gold chargées en mémoire au démarrage.
-_DATA: dict[str, pd.DataFrame] = {}
+# Données gold chargées en mémoire au démarrage. Contient aussi le payload
+# colonnaire pré-sérialisé des points (clé "points_bytes").
+_DATA: dict[str, Any] = {}
+
+_SRC_MAP = {"plantation": 0, "releve": 1, "inconnue": 2}
 
 # Colonnes renvoyées pour la carte (payload minimal).
 _TREE_COLS = [
@@ -42,6 +47,49 @@ def _load_gold() -> None:
     _DATA["trees"] = trees
     _DATA["species"] = species
     _DATA["annual"] = annual
+    raw = _build_points_payload()
+    _DATA["points_bytes"] = raw
+    _DATA["points_gzip"] = gzip.compress(raw, compresslevel=6)
+
+
+def _build_points_payload() -> bytes:
+    """Pré-sérialise TOUS les points géolocalisés en format colonnaire compact.
+
+    Au lieu de 335 k objets JSON (clés + chaînes répétées), on renvoie des
+    tableaux parallèles + une palette d'espèces envoyée une seule fois ; chaque
+    point ne porte qu'un index d'espèce (petit entier). Chargé une fois par le
+    front, puis filtré/animé côté client. Combiné à gzip, le volume est divisé
+    par ~15 et la lecture devient instantanée (zéro réseau par année).
+    """
+    trees: pd.DataFrame = _DATA["trees"]
+    species: pd.DataFrame = _DATA["species"].reset_index(drop=True)
+
+    sp_index = {k: i for i, k in enumerate(species[config.SPECIES_KEY])}
+    arronds = sorted(trees["arrondissement"].dropna().unique().tolist())
+    arr_index = {a: i for i, a in enumerate(arronds)}
+
+    df = trees[trees["has_coords"]].copy()
+    df["_sp"] = df[config.SPECIES_KEY].map(sp_index).fillna(-1).astype("int32")
+    df["_arr"] = df["arrondissement"].map(arr_index).fillna(-1).astype("int32")
+    df["_src"] = df["date_source"].map(_SRC_MAP).fillna(2).astype("int8")
+    df["_annee"] = df["annee_reference"].fillna(0).astype("int32")
+    df = df.sort_values("_sp", kind="stable")
+
+    payload = {
+        "count": int(len(df)),
+        "species": {
+            "color": species["color_hex"].tolist(),
+            "name": species["essence_fr"].fillna(species[config.SPECIES_KEY]).tolist(),
+        },
+        "arronds": arronds,
+        "lon": df["longitude"].round(5).tolist(),
+        "lat": df["latitude"].round(5).tolist(),
+        "annee": df["_annee"].tolist(),
+        "sp": df["_sp"].tolist(),
+        "arr": df["_arr"].tolist(),
+        "src": df["_src"].tolist(),
+    }
+    return json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
 
 @asynccontextmanager
@@ -125,10 +173,26 @@ def root() -> dict[str, Any]:
         "arbres": len(trees),
         "especes": len(_DATA["species"]),
         "endpoints": [
-            "/api/trees", "/api/species", "/api/arrondissements",
-            "/api/timeline", "/api/stats", "/docs",
+            "/api/points", "/api/trees", "/api/species",
+            "/api/arrondissements", "/api/timeline", "/api/stats", "/docs",
         ],
     }
+
+
+@app.get("/api/points")
+def get_points(request: Request) -> Response:
+    """Tous les points géolocalisés en format colonnaire compact (chargement
+    unique). Le front filtre ensuite par année/arrondissement côté client.
+
+    Sert le blob gzip pré-calculé si le client l'accepte (tous les navigateurs),
+    sinon la version brute."""
+    if "gzip" in request.headers.get("accept-encoding", "").lower():
+        return Response(
+            content=_DATA["points_gzip"],
+            media_type="application/json",
+            headers={"Content-Encoding": "gzip", "Vary": "Accept-Encoding"},
+        )
+    return Response(content=_DATA["points_bytes"], media_type="application/json")
 
 
 @app.get("/api/trees")

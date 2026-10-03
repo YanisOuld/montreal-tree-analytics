@@ -1,4 +1,5 @@
 import type { Species } from "../api";
+import type { ViewMode } from "../App";
 import Legend from "./Legend";
 
 interface Props {
@@ -8,6 +9,8 @@ interface Props {
   arrondissements: string[];
   arrondissement: string;
   onArrondChange: (a: string) => void;
+  mode: ViewMode;
+  onModeChange: (m: ViewMode) => void;
   playing: boolean;
   onTogglePlay: () => void;
   canPlay: boolean;
@@ -26,6 +29,8 @@ export default function ControlPanel({
   arrondissements,
   arrondissement,
   onArrondChange,
+  mode,
+  onModeChange,
   playing,
   onTogglePlay,
   canPlay,
@@ -34,6 +39,24 @@ export default function ControlPanel({
 }: Props) {
   return (
     <aside className="panel">
+      <section className="panel-block">
+        <h2 className="panel-title">Mode d'affichage</h2>
+        <div className="segmented">
+          <button
+            className={mode === "annee" ? "seg active" : "seg"}
+            onClick={() => onModeChange("annee")}
+          >
+            Par année
+          </button>
+          <button
+            className={mode === "cumul" ? "seg active" : "seg"}
+            onClick={() => onModeChange("cumul")}
+          >
+            Cumulé
+          </button>
+        </div>
+      </section>
+
       <section className="panel-block">
         <h2 className="panel-title">Fenêtre temporelle</h2>
         <div className="year-readout">{year}</div>

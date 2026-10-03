@@ -2,7 +2,7 @@ export default function NavBar() {
   return (
     <header className="navbar">
       <div className="brand">
-        <span className="brand-mark" />
+        <img className="brand-mark" src="/logo.png" alt="Montréal Tree Analytics" />
         <span className="brand-name">Montréal Tree Analytics</span>
       </div>
       <nav className="nav-links">
