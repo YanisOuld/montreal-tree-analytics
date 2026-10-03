@@ -16,10 +16,10 @@ DATA_DIR = BACKEND_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
 GOLD_DIR = DATA_DIR / "gold"
 
-# Le fichier source est livré en Windows-1252 (accents français) avec quelques
-# octets invalides isolés dans des colonnes de noms de rue -> on remplace plutôt
-# que de planter (les noms d'essences, eux, restent intacts).
-RAW_ENCODING = "cp1252"
+# Le fichier source est encodé en UTF-8 (accents français corrects :
+# « Érable argenté », « Frêne »...). On garde un repli « replace » au cas où un
+# octet isolé serait invalide, plutôt que de planter.
+RAW_ENCODING = "utf-8"
 RAW_ENCODING_ERRORS = "replace"
 
 # Clé d'identité d'un « type d'arbre ». Dans ce jeu de données ``Sigle`` et

@@ -1,0 +1,286 @@
+:root {
+  --bg: #f3f3f1;
+  --panel: #ffffff;
+  --ink: #1f1f1d;
+  --muted: #6c6c66;
+  --line: #d7d7d1;
+  --navbar: #2d3733;
+  --navbar-ink: #e9ece9;
+  --accent: #4b6b52;
+
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Tout reste rectangulaire : aucun arrondi. */
+button,
+select,
+input {
+  border-radius: 0;
+  font-family: inherit;
+}
+
+/* ---- Navbar ---- */
+.navbar {
+  height: 52px;
+  background: var(--navbar);
+  color: var(--navbar-ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #202926;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-mark {
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  display: inline-block;
+}
+
+.brand-name {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-link {
+  color: var(--navbar-ink);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border-color: #46524d;
+}
+
+.nav-link.active {
+  background: #3a463f;
+}
+
+/* ---- Layout ---- */
+.layout {
+  display: flex;
+  height: calc(100% - 52px);
+}
+
+.panel {
+  width: 300px;
+  flex-shrink: 0;
+  background: var(--panel);
+  border-right: 1px solid var(--line);
+  padding: 18px;
+  overflow-y: auto;
+}
+
+.panel-block {
+  margin-bottom: 22px;
+}
+
+.panel-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+/* ---- Slider ---- */
+.year-readout {
+  font-size: 30px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.slider {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.slider-bounds {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.btn-play {
+  margin-top: 12px;
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-play:hover {
+  background: #3f5a45;
+}
+
+.btn-play.playing {
+  background: #8a3a3a;
+  border-color: #8a3a3a;
+}
+
+.btn-play.playing:hover {
+  background: #763030;
+}
+
+.btn-play:disabled {
+  background: #cbcbc5;
+  border-color: #cbcbc5;
+  color: #f1f1ee;
+  cursor: default;
+}
+
+/* ---- Stats ---- */
+.stats {
+  border: 1px solid var(--line);
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.stat:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Select ---- */
+.select {
+  width: 100%;
+  padding: 7px 8px;
+  border: 1px solid var(--line);
+  background: #fff;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+/* ---- Legend ---- */
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  font-size: 12px;
+}
+
+.legend-swatch {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.legend-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.legend-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+}
+
+/* ---- Map ---- */
+.map-wrap {
+  position: relative;
+  flex: 1;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  background: #e8e8e4;
+}
+
+.loading {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 500;
+  background: var(--navbar);
+  color: var(--navbar-ink);
+  font-size: 12px;
+  padding: 6px 12px;
+  border: 1px solid #202926;
+}
+
+.hidden {
+  display: none;
+}
+
+.error-banner {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 500;
+  background: #7a2e2e;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+/* La carte reste sobre : on neutralise l'arrondi par défaut de Leaflet. */
+.leaflet-container,
+.leaflet-control {
+  border-radius: 0 !important;
+}

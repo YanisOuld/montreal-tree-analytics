@@ -24,7 +24,7 @@ _DATA: dict[str, pd.DataFrame] = {}
 # Colonnes renvoyées pour la carte (payload minimal).
 _TREE_COLS = [
     "id", "longitude", "latitude", "essence_latin", "essence_fr",
-    "arrondissement", "annee_plantation", "dhp_cm",
+    "arrondissement", "annee_reference", "date_source", "dhp_cm",
     "color_hex", "color_hex_dark", "display_group",
     "display_color", "display_color_dark",
 ]
@@ -104,9 +104,9 @@ def _filter_trees(
     if geolocalises_only:
         mask &= df["has_coords"]
     if annee_min is not None:
-        mask &= df["annee_plantation"].notna() & (df["annee_plantation"] >= annee_min)
+        mask &= df["annee_reference"].notna() & (df["annee_reference"] >= annee_min)
     if annee_max is not None:
-        mask &= df["annee_plantation"].notna() & (df["annee_plantation"] <= annee_max)
+        mask &= df["annee_reference"].notna() & (df["annee_reference"] <= annee_max)
     if arrondissement:
         mask &= df["arrondissement"] == arrondissement
     if essence_latin:
@@ -133,8 +133,8 @@ def root() -> dict[str, Any]:
 
 @app.get("/api/trees")
 def get_trees(
-    annee_min: int | None = Query(None, description="Année de plantation minimale"),
-    annee_max: int | None = Query(None, description="Année de plantation maximale"),
+    annee_min: int | None = Query(None, description="Année de référence minimale (plantation sinon relevé)"),
+    annee_max: int | None = Query(None, description="Année de référence maximale (plantation sinon relevé)"),
     arrondissement: str | None = None,
     essence_latin: str | None = None,
     remarquable: bool | None = None,

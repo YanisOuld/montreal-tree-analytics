@@ -28,7 +28,7 @@ Les données suivent une progression `raw → gold` :
 
 | Couche | Emplacement | Contenu |
 |--------|-------------|---------|
-| **raw** | `backend/data/raw/*.csv` | Données brutes telles que reçues (inventaire des arbres de Montréal, Windows-1252, ~335 k lignes). |
+| **raw** | `backend/data/raw/*.csv` | Données brutes telles que reçues (inventaire des arbres de Montréal, UTF-8, ~335 k lignes). |
 | **gold** | `backend/data/gold/` | Données nettoyées, typées et enrichies, prêtes pour la carte, la timeline et le ML. |
 
 ### Lancer la transformation
@@ -42,7 +42,9 @@ uv run python src/main.py
 
 * **`trees.parquet`** — un arbre par ligne, nettoyé et typé (dates parsées, coordonnées validées sur la boîte englobante de Montréal, DHP borné, accents français corrigés), enrichi de la **couleur de son espèce**.
 * **`species_colors.csv`** / `species_colors.parquet` — table de dimension des espèces : effectif, rang, et **un code couleur unique par type d'arbre** (voir ci-dessous).
-* **`annual_counts.parquet`** — agrégat annuel (arbres plantés par an + cumul) qui alimente la **timeline à fenêtre glissante**.
+* **`annual_counts.parquet`** — agrégat annuel (arbres par an + cumul) qui alimente la **timeline à fenêtre glissante**.
+
+> **Année de référence.** ~40 % des arbres n'ont pas de date de plantation dans la source. L'axe temporel utilise donc `annee_reference` = date de plantation si connue, **sinon date de relevé** (colonne `date_source` : `plantation` / `releve` / `inconnue`). La couverture temporelle passe ainsi de ~201 k à **335 383 / 335 499** arbres.
 
 ### Code couleur par type d'arbre
 
@@ -70,17 +72,57 @@ Documentation interactive : <http://127.0.0.1:8000/docs>
 | `GET /api/timeline` | Évolution annuelle (plantés par an + cumul). |
 | `GET /api/stats` | Statistiques descriptives, filtrables. |
 
-### Structure du backend
+## Frontend (React + TypeScript + Vite)
+
+Interface carte sobre et rectangulaire : navbar, fenêtre temporelle glissante (slider par année), filtres et légende des essences. La carte (Leaflet, fond CARTO Positron) affiche chaque arbre avec la **couleur unique de son espèce**.
+
+```bash
+cd frontend
+npm install
+cp .env.example .env     # puis renseigner VITE_CARTO_KEY (clé CARTO Basemaps)
+npm run dev              # http://localhost:5173
+```
+
+Le backend doit tourner en parallèle sur le port 8000 ; les appels `/api/*` lui sont relayés par le proxy Vite (voir `vite.config.ts`).
+
+> **Clé CARTO.** Le fond de carte CARTO exige une clé d'API. Elle se place dans `frontend/.env` (`VITE_CARTO_KEY=…`, fichier **non versionné** car c'est un secret) ; voir `.env.example`. Obtenir une clé : <https://carto.com/basemaps/apikey>.
+
+### Mise en route complète
+
+```bash
+# Terminal 1 — backend
+cd backend
+uv run python src/main.py                         # génère le gold (une fois)
+uv run uvicorn api:app --app-dir src --reload     # API sur :8000
+
+# Terminal 2 — frontend
+cd frontend
+npm install
+npm run dev                                        # UI sur :5173
+```
+
+## Structure du projet
 
 ```
-backend/
-├── data/
-│   ├── raw/     # CSV source (git-ignoré)
-│   └── gold/    # artefacts générés (git-ignoré)
-└── src/
-    ├── config.py   # chemins, encodage, bornes de validation
-    ├── colors.py   # attribution des couleurs par espèce
-    ├── gold.py     # transformation raw → gold
-    ├── main.py     # point d'entrée du pipeline
-    └── api.py      # API FastAPI (sert la couche gold)
+montreal-tree-analytics/
+├── backend/
+│   ├── data/
+│   │   ├── raw/     # CSV source (git-ignoré)
+│   │   └── gold/    # artefacts générés (git-ignoré)
+│   └── src/
+│       ├── config.py   # chemins, encodage, bornes de validation
+│       ├── colors.py   # attribution des couleurs par espèce
+│       ├── gold.py     # transformation raw → gold
+│       ├── main.py     # point d'entrée du pipeline
+│       └── api.py      # API FastAPI (sert la couche gold)
+└── frontend/
+    └── src/
+        ├── api.ts            # client de l'API (types + fetch)
+        ├── App.tsx           # état et orchestration
+        ├── index.css         # thème sobre, rectangulaire
+        └── components/
+            ├── NavBar.tsx
+            ├── ControlPanel.tsx   # slider, stats, filtre, légende
+            ├── Legend.tsx
+            └── TreeMap.tsx        # carte Leaflet (rendu canvas)
 ```

@@ -93,6 +93,15 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
     df["annee_plantation"] = plant.dt.year.astype("Int16")
     df["annee_releve"] = releve.dt.year.astype("Int16")
 
+    # Année de référence pour l'axe temporel : la plantation si elle est connue,
+    # sinon le relevé (« recensé »). ~40 % des arbres n'ont pas de date de
+    # plantation ; ce repli porte la couverture temporelle de ~201 k à ~335 k.
+    df["annee_reference"] = df["annee_plantation"].fillna(df["annee_releve"])
+    source = pd.Series("inconnue", index=df.index, dtype="string")
+    source = source.mask(df["annee_releve"].notna(), "releve")
+    source = source.mask(df["annee_plantation"].notna(), "plantation")
+    df["date_source"] = source
+
     # Diamètre : négatif ou invraisemblable -> NA.
     dhp = pd.to_numeric(df["dhp_cm"], errors="coerce")
     df["dhp_cm"] = dhp.where((dhp > 0) & (dhp <= config.DHP_MAX_CM)).astype("Float32")
@@ -160,19 +169,20 @@ def build_species_colors(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_annual_counts(df: pd.DataFrame) -> pd.DataFrame:
-    """Agrégat annuel pour la timeline : plantés par an + cumul."""
-    planted = (
-        df.dropna(subset=["annee_plantation"])
-        .groupby("annee_plantation")
+    """Agrégat annuel pour la timeline, basé sur l'année de référence
+    (plantation, sinon relevé) : arbres par an + cumul."""
+    counts = (
+        df.dropna(subset=["annee_reference"])
+        .groupby("annee_reference")
         .size()
-        .rename("n_plantes")
+        .rename("n_arbres")
         .reset_index()
-        .rename(columns={"annee_plantation": "annee"})
+        .rename(columns={"annee_reference": "annee"})
         .sort_values("annee")
     )
-    planted["annee"] = planted["annee"].astype(int)
-    planted["n_cumule"] = planted["n_plantes"].cumsum()
-    return planted.reset_index(drop=True)
+    counts["annee"] = counts["annee"].astype(int)
+    counts["n_cumule"] = counts["n_arbres"].cumsum()
+    return counts.reset_index(drop=True)
 
 
 def run_pipeline() -> dict[str, int]:
