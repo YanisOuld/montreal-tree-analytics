@@ -1,0 +1,15 @@
+# Exclut du contexte de build ce qui ne doit pas y être.
+**/.venv
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.env
+**/dist
+.git
+.gitignore
+
+# Données brutes volumineuses (98 Mo) : le gold suffit à l'exécution.
+backend/data/raw
+
+# Artefacts locaux
+*.log

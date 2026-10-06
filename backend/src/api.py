@@ -12,13 +12,19 @@ from __future__ import annotations
 import gzip
 import json
 from contextlib import asynccontextmanager
+from pathlib import Path
 from typing import Any
 
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 import config
+
+# Frontend compilé servi par la même app en production (déploiement 1 service).
+# En dev, ce dossier n'existe pas -> on sert uniquement l'API (Vite sert l'UI).
+_FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend_dist"
 
 # Données gold chargées en mémoire au démarrage. Contient aussi le payload
 # colonnaire pré-sérialisé des points (clé "points_bytes").
@@ -164,8 +170,14 @@ def _filter_trees(
     return df[mask]
 
 
-@app.get("/")
-def root() -> dict[str, Any]:
+@app.get("/healthz")
+def healthz() -> dict[str, str]:
+    """Sonde de santé pour Railway."""
+    return {"status": "ok"}
+
+
+@app.get("/api")
+def api_root() -> dict[str, Any]:
     trees = _DATA["trees"]
     return {
         "service": "Montréal Tree Analytics API",
@@ -267,3 +279,9 @@ def get_stats(
             .rename_axis("essence_fr").reset_index(name="n")
         ),
     }
+
+
+# En production : sert le frontend compilé à la racine (SPA). Monté EN DERNIER
+# pour que toutes les routes /api/* et /docs soient prioritaires.
+if _FRONTEND_DIST.is_dir():
+    app.mount("/", StaticFiles(directory=_FRONTEND_DIST, html=True), name="frontend")

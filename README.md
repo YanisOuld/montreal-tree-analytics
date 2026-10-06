@@ -104,14 +104,47 @@ npm install
 npm run dev                                        # UI sur :5173
 ```
 
+## Déploiement (Railway)
+
+L'application se déploie en **un seul service** : FastAPI sert à la fois l'API
+(`/api/*`) et le frontend React compilé (à la racine `/`). Un `Dockerfile`
+multi-étapes (à la racine du repo) construit le tout ; Railway le détecte
+automatiquement.
+
+**Mise en place :**
+
+1. Associer le repo GitHub à un projet Railway (New Project → Deploy from GitHub).
+2. Dans **Variables** du service, ajouter `VITE_CARTO_KEY` = votre clé CARTO
+   (injectée au build du frontend ; sans elle, la carte fonctionne mais affiche
+   le filigrane CARTO).
+3. Déployer. Railway build le `Dockerfile`, expose `$PORT`, et sonde `/healthz`.
+
+**Points importants :**
+
+- La **couche gold** (`backend/data/gold/`, ~10 Mo) est **versionnée** : c'est la
+  seule donnée nécessaire à l'exécution. Le CSV brut (98 Mo) reste git-ignoré.
+- Pour **mettre à jour les données** : régénérer le gold en local
+  (`cd backend && uv run python src/main.py`) puis commiter `backend/data/gold/`.
+- Le frontend appelle `/api/...` en **chemin relatif** → même origine en prod,
+  aucun réglage CORS ni URL d'API à configurer.
+
+Tester l'image en local (identique à Railway) :
+
+```bash
+docker build -t mtl-trees --build-arg VITE_CARTO_KEY=... .
+docker run --rm -e PORT=8000 -p 8085:8000 mtl-trees   # http://localhost:8085
+```
+
 ## Structure du projet
 
 ```
 montreal-tree-analytics/
+├── Dockerfile          # build 1 service (frontend + API)
+├── railway.json        # config déploiement Railway
 ├── backend/
 │   ├── data/
-│   │   ├── raw/     # CSV source (git-ignoré)
-│   │   └── gold/    # artefacts générés (git-ignoré)
+│   │   ├── raw/     # CSV source 98 Mo (git-ignoré)
+│   │   └── gold/    # artefacts ~10 Mo (VERSIONNÉS pour le déploiement)
 │   └── src/
 │       ├── config.py   # chemins, encodage, bornes de validation
 │       ├── colors.py   # attribution des couleurs par espèce

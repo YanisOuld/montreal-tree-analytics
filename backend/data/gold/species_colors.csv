@@ -1,0 +1,807 @@
+essence_latin,sigle,essence_fr,essence_ang,n_trees,rank,color_hex,color_hex_dark,display_group,display_color,display_color_dark
+Acer saccharinum,ACSA,Érable argenté,Silver Maple,29567,1,#903EDA,#B57DE8,Acer saccharinum,#2a78d6,#3987e5
+Acer platanoides,ACPL,Érable de Norvège,Norway Maple,22533,2,#19B364,#49D48D,Acer platanoides,#eb6834,#d95926
+Fraxinus pennsylvanica,FRPE,Frêne de Pennsylvanie,Red Ash,13955,3,#F04258,#D87985,Fraxinus pennsylvanica,#1baf7a,#199e70
+Tilia cordata,TICO,Tilleul à petites feuilles,Littleleaf European Linden,13270,4,#9AD912,#B2D369,Tilia cordata,#eda100,#c98500
+Celtis occidentalis,CEOC,Micocoulier occidental,Common Hackberry,10171,5,#D1C961,#F2E75F,Celtis occidentalis,#e87ba4,#d55181
+Gymnocladus dioicus,GYDI,Chicot du Canada,Kentucky Coffeetree,10167,6,#26C5C4,#5AE2E1,Gymnocladus dioicus,#008300,#008300
+Gleditsia triacanthos 'Skyline',GLTRSK,Févier Skyline,Skyline Honey-Locust,9863,7,#B6BD0F,#C8CD51,Gleditsia triacanthos 'Skyline',#4a3aa7,#9085e9
+Gleditsia triacanthos var. inermis,GLTRIN,Févier inerme d'Amérique,Thornless Honey-Locust,8282,8,#90D161,#9DF25F,Gleditsia triacanthos var. inermis,#e34948,#e66767
+Picea pungens,PIPU,Épinette du Colorado,Colorado Spruce,6757,9,#2BEED0,#88DDD0,Autres,#8a8a84,#9a9a92
+Ulmus x 'Morton' (Accolade TM),ULXXMO,Orme Morton (Accolade TM),Morton (Accolade TM) Elm,6052,10,#2E9E7A,#2FEEB2,Autres,#8a8a84,#9a9a92
+Ulmus pumila,ULPU,Orme de Sibérie,Siberian Elm,5457,11,#65C526,#91E25A,Autres,#8a8a84,#9a9a92
+Quercus rubra,QURU,Chêne rouge,Red Oak,4864,12,#36E2D2,#83E2D9,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Shademaster',GLTRSH,Févier Shademaster,Shademaster Honey-Locust,4818,13,#217EAB,#40AADD,Autres,#8a8a84,#9a9a92
+Syringa reticulata 'Ivory Silk',SYREIS,Lilas japonais Ivory Silk,Ivory Silk Japanese Tree Lilac,4653,14,#0FBD46,#51CD78,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Columnare',ACPLCO,Érable de Norvège colonnaire,Columnare Norway Maple,4588,15,#E64CB4,#DE73BB,Autres,#8a8a84,#9a9a92
+Ginkgo biloba,GIBI,Ginkgo à feuilles bilobées,Maidenhair Tree,4326,16,#E6AC4C,#DEB573,Autres,#8a8a84,#9a9a92
+Acer saccharum,ACSC,Érable à sucre,Sugar Maple,4120,17,#6E54DE,#836CE5,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Autumn Blaze',ACFRAB,Érable Autumn Blaze,Autumn Blaze Freeman Maple,4063,18,#1E12D9,#7069D3,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos,GLTR,Févier d'Amérique,Common Honey-Locust,3796,19,#61D17C,#5FF283,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Deborah',ACPLDE,Érable de Norvège Deborah,Deborah Norway Maple,3680,20,#6E35B6,#954CF0,Autres,#8a8a84,#9a9a92
+Tilia americana,TIAM,Tilleul d'Amérique,Basswood,3671,21,#DEBF54,#E5C96C,Autres,#8a8a84,#9a9a92
+Pinus nigra 'Austriaca',PNNIAU,Pin noir d'Autriche,Austrian Pine,3660,22,#C5C026,#E2DE5A,Autres,#8a8a84,#9a9a92
+Quercus macrocarpa,QUMA,Chêne à gros fruits,Bur Oak,3341,23,#D16195,#F25FA3,Autres,#8a8a84,#9a9a92
+Malus,MA,Pommier,Crab Apple,3338,24,#87EE2B,#B0DD88,Autres,#8a8a84,#9a9a92
+Populus deltoides,PODE,Peuplier deltoïde,Eastern Cottonwood,3226,25,#3EC6DA,#7DDAE8,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Emerald Queen',ACPLEQ,Érable de Norvège Emerald Queen,Emerald Queen Norway Maple,2945,26,#2B7EEE,#88ACDD,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Marshall Seedless',FRPEMS,Frêne de Pennsylvanie Marshall Seedless,Marshall Seedless Red Ash,2917,27,#12D99F,#69D3B4,Autres,#8a8a84,#9a9a92
+Picea glauca,PIGL,Épinette blanche,White Spruce,2776,28,#A84CE6,#B373DE,Autres,#8a8a84,#9a9a92
+Pinus sylvestris,PNSY,Pin sylvestre,Scots Pine,2678,29,#36E2D6,#83E2DB,Autres,#8a8a84,#9a9a92
+Catalpa speciosa,CTSP,Catalpa de l'Ouest,Western Catalpa,2582,30,#38B319,#65D449,Autres,#8a8a84,#9a9a92
+Acer negundo,ACNE,Érable à Giguère,Manitoba Maple,2511,31,#1DCDAE,#62DAC5,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Summit',FRPESU,Frêne de Pennsylvanie Summit,Summit Red Ash,2477,32,#58DA3E,#8FE87D,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Pyramidalis',ACSAPY,Érable argenté Pyramidal,Pyramidale Silver Maple,2326,33,#7AAB21,#A5DD40,Autres,#8a8a84,#9a9a92
+Gymnocladus dioicus 'Espresso',GYDIES,Chicot du Canada 'Espresso',Kentucky Coffeetree 'Espresso',2270,34,#D99E12,#D3B469,Autres,#8a8a84,#9a9a92
+Acer rubrum,ACRU,Érable rouge,Red Maple,2232,35,#26C55F,#5AE28B,Autres,#8a8a84,#9a9a92
+Amelanchier canadensis,AMCA,Amélanchier du Canada,Downy Serviceberry,2203,36,#EE2B81,#DD88AE,Autres,#8a8a84,#9a9a92
+Ostrya virginiana,OSVI,Ostryer de Virginie,American Hop-Hornbeam Ironwood,2162,37,#6735B6,#8C4CF0,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Autumn Gold',GIBIAG,Ginkgo à feuilles bilobées Autumn Gold,Autumn Gold Maidenhair Tree,2076,38,#12D919,#69D36D,Autres,#8a8a84,#9a9a92
+Quercus robur 'Fastigiata',QUROFA,Chêne anglais fastigié,Fastigiate English Oak,1909,39,#8EEE2B,#B3DD88,Autres,#8a8a84,#9a9a92
+Ulmus americana,ULAM,Orme d'Amérique,White Elm,1804,40,#A24CE6,#AF73DE,Autres,#8a8a84,#9a9a92
+Ulmus x hollandica 'Pioneer',ULHOPI,Orme Pioneer,Pioneer Elm,1734,41,#C5BA26,#E2D95A,Autres,#8a8a84,#9a9a92
+Quercus bicolor,QUBI,Chêne bleu,Swamp White Oak,1618,42,#BB0FBD,#CC51CD,Autres,#8a8a84,#9a9a92
+Ulmus x 'Homestead',ULXXHO,Orme Homestead,Homestead Elm,1552,43,#CB4D60,#F47185,Autres,#8a8a84,#9a9a92
+Thuja occidentalis,THOC,Thuya occidental,Eastern White Cedar,1529,44,#5126C5,#805AE2,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Street Keeper',GLTRST,Gleditsia triacanthos 'Street Keeper',Gleditsia triacanthos 'Street Keeper',1519,45,#19B35F,#49D488,Autres,#8a8a84,#9a9a92
+Acer ginnala,ACGI,Érable de l'Armour,Armur Maple,1451,46,#199AB3,#49BED4,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Crimson King',ACPLCK,Érable de Norvège Crimson King,Crimson King Norway Maple,1388,47,#26C0C5,#5ADEE2,Autres,#8a8a84,#9a9a92
+Picea abies,PIAB,Épinette de Norvège,Norway Spruce,1339,48,#DE549D,#E56CAC,Autres,#8a8a84,#9a9a92
+Picea pungens 'Glauca',PIPUGL,Épinette du Colorado Glauca,Glauca Blue Spruce,1317,49,#C354DE,#CD6CE5,Autres,#8a8a84,#9a9a92
+Fraxinus americana,FRAM,Frêne d'Amérique,White Ash,1313,50,#CD1D7C,#DA62A3,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Schwedleri',ACPLSC,Érable de Norvège Schwedleri,Schwedleri Norway Maple,1305,51,#35B319,#62D449,Autres,#8a8a84,#9a9a92
+Carya cordiformis,CRCO,Caryer cordiforme,Bitternut Hickory,1299,52,#AACB4D,#D2F471,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Princeton Sentry',GIBIPS,Ginkgo à feuilles bilobées Princeton Sentry,Princeton Sentry Maidenhair Tree,1297,53,#4DCB96,#71F4BD,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Patmore',FRPEPA,Frêne de Pennsylvanie Patmore,Patmore Red Ash,1269,54,#B66A35,#F0904C,Autres,#8a8a84,#9a9a92
+Carpinus caroliniana,CACA,Charme de Caroline,Blue-beech,1267,55,#1DCD35,#62DA72,Autres,#8a8a84,#9a9a92
+Phellodendron amurensis,PHAM,Phellodendron de l'Amour,Amur Cork tree,1253,56,#2B89EE,#88B1DD,Autres,#8a8a84,#9a9a92
+Larix laricina,LALA,Mélèze laricin,Tamarack,1170,57,#BD0F44,#CD5176,Autres,#8a8a84,#9a9a92
+Ulmus,UL,Orme,Elm,1170,58,#43B319,#6FD449,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Armstrong',ACFRAR,Acer x freemanii 'Armstrong',Acre x freemanii 'Armstrong',1154,59,#C55E26,#E28B5A,Autres,#8a8a84,#9a9a92
+Aesculus glabra,AEGL,Marronnier glabre,Ohio Buckeye,1144,60,#F0A442,#D8AE79,Autres,#8a8a84,#9a9a92
+Pinus strobus,PNST,Pin blanc,Eastern White Pine,1137,61,#8AEE2B,#B2DD88,Autres,#8a8a84,#9a9a92
+Syringa reticulata,SYRE,Lilas japonais,Japanese Tree Lilac,1110,62,#E2D136,#E2D983,Autres,#8a8a84,#9a9a92
+Ulmus davidiana 'Discovery',ULDADI,Nom français,Nom anglais,1060,63,#BD0F4D,#CD517D,Autres,#8a8a84,#9a9a92
+Betula nigra 'Heritage',BENIHE,Bouleau noir Heritage,Heritage River Birch,1034,64,#DEC954,#E5D36C,Autres,#8a8a84,#9a9a92
+Ulmus x 'Morton Glossy' (Triumph TM),ULXXMG,Ulmus x 'Morton Glossy' (Triumph TM),Ulmus x 'Morton Glossy' (Triumph TM),1032,65,#3682E2,#83ADE2,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Northern Acclaim',GLTRNA,Févier 'Northern Acclaim',Northern Acclaim Honey-Locust,1028,66,#DA8B3E,#E8B27D,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Sunburst',GLTRSU,Févier Sunburst,Sunburst Honey-Locust,1011,67,#DE6A54,#E57F6C,Autres,#8a8a84,#9a9a92
+Quercus palustris,QUPA,Chêne des marais,Pin Oak,1011,68,#9512D9,#AF69D3,Autres,#8a8a84,#9a9a92
+Populus canescens 'Tower',POCNTO,Peuplier Tower,Tower Poplar,1004,69,#CD1D83,#DA62A7,Autres,#8a8a84,#9a9a92
+Juglans nigra,JUNI,Noyer noir,Eastern Black Walnut,974,70,#BD4F0F,#CD7E51,Autres,#8a8a84,#9a9a92
+Maackia amurensis,MCAM,Maackia de l'Amur,Amur Maackia,972,71,#35ACB6,#4CE5F0,Autres,#8a8a84,#9a9a92
+Ulmus x New Horizon,ULXXNH,Ulmus x New Horizon,Ulmus x New Horizon,964,72,#D16197,#F25FA6,Autres,#8a8a84,#9a9a92
+Amelanchier laevis,AMLA,Amelanchier laevis,Amelanchier laevis,936,73,#0FBD53,#51CD81,Autres,#8a8a84,#9a9a92
+Phellodendron amurensis 'Macho',PHAMMA,Phellodendron de l'Amour Macho,Macho Amur Cork Tree,913,74,#D736E2,#DC83E2,Autres,#8a8a84,#9a9a92
+Larix decidua,LADE,Mélèze d'Europe,European Larch,910,75,#7ECD1D,#A4DA62,Autres,#8a8a84,#9a9a92
+Liriodendron tulipifera,LITU,Tulipier de Virginie,Tulip Tree,836,76,#4C54E6,#7378DE,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Royal Red',ACPLRR,Érable de Norvège Royal Red,Royal Red Norway Maple,820,77,#3B2E9E,#452FEE,Autres,#8a8a84,#9a9a92
+Robinia pseudoacacia,ROPS,Robinier faux-acacia,Black Locust,811,78,#5CB635,#7EF04C,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Greenspire',TICOGR,Tilleul à petites feuilles Greenspire,Greenspire Littleleaf Linden,792,79,#E23681,#E283AC,Autres,#8a8a84,#9a9a92
+Ulmus americana 'Valley Forge',ULXXVF,Ulmus  Valley Forge,Ulmus x Valley Forge,755,80,#2BEEC9,#88DDCD,Autres,#8a8a84,#9a9a92
+Tilia tomentosa,TITO,Tilleul argenté,Silver Linden,753,81,#E64CC2,#DE73C5,Autres,#8a8a84,#9a9a92
+Pyrus calleryana 'Glen's Form (Chantecleer),PYCACH,Poirier Chantecleer,Pyrus calleryana Chantecleer,742,82,#A54CE6,#B173DE,Autres,#8a8a84,#9a9a92
+Acer miyabei 'Morton' (State Street TM),ACMIMO,Acer miyabei Morton (State Street),Acer miyabei Morton (State Street),727,83,#B635A7,#F04CDD,Autres,#8a8a84,#9a9a92
+Fraxinus,FR,Frêne,Ash,708,84,#55B635,#74F04C,Autres,#8a8a84,#9a9a92
+Betula papyrifera,BEPA,Bouleau à papier,Paper Birch,700,85,#8BD912,#AAD369,Autres,#8a8a84,#9a9a92
+Ginkgo biloba mâle,GIBIMA,Ginkgo biloba mâle,Ginkgo biloba mâle,689,86,#19A0B3,#49C4D4,Autres,#8a8a84,#9a9a92
+Picea,PI,Épinette,Spruce,688,87,#3DB319,#6AD449,Autres,#8a8a84,#9a9a92
+Populus deltoides 'Siouxland',PODESI,Peuplier deltoides Siouxland,Siouxland Eastern Cottonwood,680,88,#EECF2B,#DDCF88,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Drummondii',ACPLDR,Érable de Norvège panaché,Harlequin Norway Maple,665,89,#1DCD39,#62DA75,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Autumn Fantasy',ACFRAF,Acer x freemanii 'Autumn Fantasy',Acer x freemanii 'Autumn Fantasy',659,90,#52B635,#71F04C,Autres,#8a8a84,#9a9a92
+Platanus occidentalis,PLOC,Platane occidental,Eastern Sycamore,644,91,#2E9E34,#2FEE39,Autres,#8a8a84,#9a9a92
+Ulmus wilsoniana 'Prospector',ULWIPR,Orme japonais du prospecteur,Prospector's Elm,635,92,#823EDA,#AB7DE8,Autres,#8a8a84,#9a9a92
+Prunus,PR,"Prunier, Cerisier ou Pêcher","Plum, Cherry or Peach tree",629,93,#7DE236,#AAE283,Autres,#8a8a84,#9a9a92
+Tilia x mongolica 'Harvest Gold',TIMOHG,Tilleul de Mongolie Harvest Gold,Harvest Gold Mongolian Linden,626,94,#21AB74,#40DD9F,Autres,#8a8a84,#9a9a92
+Divers,AAAA,Divers,Others,618,95,#35B66B,#4CF091,Autres,#8a8a84,#9a9a92
+Aesculus hippocastanum,AEHI,Marronnier d'Inde,Common Horsechesnut,616,96,#7F61D1,#865FF2,Autres,#8a8a84,#9a9a92
+Prunus virginiana 'Schubert',PRVISC,Cerisier de Virginie Schubert,Schubert's Chokecherry,600,97,#D99612,#D3B069,Autres,#8a8a84,#9a9a92
+Acer ginnala 'Ruby Slippers',ACGIRS,érable ginnala Ruby Slippers,Ruby Slippers Ginnala Maple,594,98,#61D181,#5FF288,Autres,#8a8a84,#9a9a92
+Crataegus,CG,Aubépine,Hawthorn,594,99,#7CAB21,#A8DD40,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Superform',ACPLSP,Érable de Norvège Superform,Superform Norway Maple,589,100,#42C7F0,#79C1D8,Autres,#8a8a84,#9a9a92
+Quercus x warei 'Regal Prince',QUWARP,Chêne Régal Prince,Regal Prince Oak,584,101,#B31941,#D4496D,Autres,#8a8a84,#9a9a92
+Amelanchier x grandiflora 'Autumn Brillance',AMGRAB,Amélanchier à grandes fleurs Autumn Brillance,Autumn Brillance Serviceberry,567,102,#12D91D,#69D36F,Autres,#8a8a84,#9a9a92
+Populus x canadensis,POCA,Peuplier de Caroline,Carolina Poplar,567,103,#1295D9,#69AFD3,Autres,#8a8a84,#9a9a92
+Alnus glutinosa,ALGL,Aulne glutineux,European Black Alder,555,104,#73E236,#A5E283,Autres,#8a8a84,#9a9a92
+Acer x freemanii,ACFR,Érable de Freeman,Freeman Maple,553,105,#4CE6B0,#73DEB8,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Montréal',ACSAMO,Érable argenté 'Montréal',Montréal Siler Maple,542,106,#3672E2,#83A4E2,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Imperial',GLTRIM,Févier Imperial,Imperial Honey-Locust,536,107,#B635AC,#F04CE4,Autres,#8a8a84,#9a9a92
+Corylus colurna,COCO,Noisetier de Byzance,Turkish Filbert,535,108,#3676E2,#83A6E2,Autres,#8a8a84,#9a9a92
+Cercidiphyllum japonicum,CDJA,Cercidiphyllum du Japon,Katsura Tree,527,109,#DA3EBF,#E87DD5,Autres,#8a8a84,#9a9a92
+Aesculus hippocastanum 'Baumanii',AEHIBA,Marronnier de Bauman,Bauman's Horsechesnut,525,110,#50E64C,#75DE73,Autres,#8a8a84,#9a9a92
+Cladrastis kentukea,CLKE,"Virgilier, Virgilier à bois jaune",American Yellowwood,517,111,#35AAB6,#4CE1F0,Autres,#8a8a84,#9a9a92
+Celtis occidentalis 'Prairie Sentinel',CEOCPS,Celtis occidentalis 'Prairie Sentinel',Celtis occidentalis 'Prairie Sentinel',513,112,#AE4CE6,#B773DE,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Celebration',ACFRCE,Acer x freemanii Celebration,Acer x freemanii Celebration,508,113,#CD1D79,#DA62A0,Autres,#8a8a84,#9a9a92
+Juglans cinerea,JUCI,Noyer cendré,Butternut,508,114,#DA36E2,#DD83E2,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Sheridan',TICOSH,Tilleul à petites feuilles Sheridan,Sheridan Littleleaf Linden,508,115,#19B356,#49D480,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Silver Queen',ACSASQ,Érable argenté Silver Queen,Silver Queen Silver Maple,507,116,#2E9E85,#2FEEC3,Autres,#8a8a84,#9a9a92
+Tilia americana 'Redmond',TIAMRE,Tilleul d'Amérique Redmond,Redmond American Linden,506,117,#2664C5,#5A90E2,Autres,#8a8a84,#9a9a92
+Pinus resinosa,PNRE,Pin rouge,Red Pine,488,118,#3E5DDA,#7D92E8,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Glenleven',TICOGL,Tilleul à petites feuilles Glenleven,Glenleven Littleleaf Linden,487,119,#472BEE,#9588DD,Autres,#8a8a84,#9a9a92
+Ulmus x 'Frontier',ULXXFR,Ulmus x 'Frontier',Ulmus x 'Frontier',473,120,#2BEE46,#88DD94,Autres,#8a8a84,#9a9a92
+Betula alleghaniensis,BEAL,Bouleau jaune,Yellow Birch,422,121,#E26B36,#E2A083,Autres,#8a8a84,#9a9a92
+Picea omorika,PIOM,Épinette de Serbie,Serbian Spruce,422,122,#3559B6,#4C79F0,Autres,#8a8a84,#9a9a92
+Acer ginnala 'Flame',ACGIFL,Érable de l'Armour Flame,Flame Armur Maple,411,123,#A642F0,#AF79D8,Autres,#8a8a84,#9a9a92
+Malus prunifolia 'Rinki',MAPRRI,Pommetier Rinki,Rinki Plum-leaved Crab Apple,409,124,#54DEC5,#6CE5CF,Autres,#8a8a84,#9a9a92
+Prunus serotina,PRSE,Cerisier tardif,Black Cherry,409,125,#7D2E9E,#B62FEE,Autres,#8a8a84,#9a9a92
+Elaeagnus angustifolia,ELAN,Olivier de Bohème,Russian Olive,394,126,#3E57DA,#7D8EE8,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Laciniatum',ACSALA,Érable argenté à feuilles laciniées,Cut-leaf Silver Maple,390,127,#2BEE58,#88DD9C,Autres,#8a8a84,#9a9a92
+Malus x Centurion®,MAXXCE,Pommetier Centurion®,Centurion® Crab Apple,387,128,#DEC454,#E5CE6C,Autres,#8a8a84,#9a9a92
+Ulmus X 'Cathedral',ULXXCA,Orme 'Cathedral',Cathedral elm,375,129,#42D7F0,#79CAD8,Autres,#8a8a84,#9a9a92
+Ulmus americana 'Princeton',ULAMPR,Orme Princeton,Princeton american elm,374,130,#DA3ECA,#E87DDD,Autres,#8a8a84,#9a9a92
+Malus x 'Robinson',MAXXRB,Pommetier Robinson,Robinson Crab Apple,364,131,#9E352E,#EE3B2F,Autres,#8a8a84,#9a9a92
+Pinus,PN,Pin,Pine,360,132,#CB4D5B,#F47180,Autres,#8a8a84,#9a9a92
+Acer,AC,Érable,Maple,359,133,#DC2BEE,#D588DD,Autres,#8a8a84,#9a9a92
+Ulmus x 'Morton Stalwart',ULXXMS,Orme hybride 'Morton Sarlwart' (Commendation TM),"'Morton Stalwart' - Commendation (TM) Elm,",353,134,#B80FBD,#C951CD,Autres,#8a8a84,#9a9a92
+Betula nigra,BENI,Bouleau noir,River Birch,348,135,#3FBD0F,#73CD51,Autres,#8a8a84,#9a9a92
+Malus x 'Rosseau',MAXXRS,Pommetier Rosseau,Rosseau Crab Apple,348,136,#193CB3,#4969D4,Autres,#8a8a84,#9a9a92
+Tsuga canadensis,TSCA,Pruche de l'Est,Eastern Hemlock,348,137,#302E9E,#332FEE,Autres,#8a8a84,#9a9a92
+Fagus grandifolia,FAGR,Hêtre à grandes feuilles,American Beech,338,138,#AB7E21,#DDAA40,Autres,#8a8a84,#9a9a92
+Tilia,TI,Tilleul,Linden,338,139,#9E2E76,#EE2FAA,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Summershade',ACPLSU,Érable de Norvège Summershade,Summershade Norway Maple,336,140,#DE5495,#E56CA5,Autres,#8a8a84,#9a9a92
+Gleditsia,GL,Févier,Honey-Locust,332,141,#DEC754,#E5D06C,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Marmo',ACFRMA,Acer x freemanii Marmo,Acer x freemanii Marmo,329,142,#EEDA2B,#DDD488,Autres,#8a8a84,#9a9a92
+Phellodendron amurensis 'His Majesty',PHAMHM,Phellodendron His Majesty,His Majesty Amur corktree,319,143,#AFCB4D,#D6F471,Autres,#8a8a84,#9a9a92
+Malus x 'Harvest Gold'¿,MAXXHG,Pommetier Harvest Gold TM,Harvest Gold TM Crab Apple,316,144,#4D5ACB,#717FF4,Autres,#8a8a84,#9a9a92
+Quercus alba,QUAL,Chêne blanc,White Oak,316,145,#84AB21,#B1DD40,Autres,#8a8a84,#9a9a92
+Malus x 'Prairifire',MAXXPA,Pommetier Prairifire,Prairifire Crab Apple,313,146,#301DCD,#6F62DA,Autres,#8a8a84,#9a9a92
+Quercus robur 'Crimson Spire',QUROCS,Quercus robur 'Crimson Spire',Quercus robur 'Crimson Spire',310,147,#3E60DA,#7D94E8,Autres,#8a8a84,#9a9a92
+Carya ovata,CROV,Caryer ovale,Shagbark Hickory,301,148,#DD36E2,#DF83E2,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Armstrong',ACRUAR,Érable rouge Armstrong,Armstrong Red Maple,296,149,#DA3EBC,#E87DD3,Autres,#8a8a84,#9a9a92
+Betula populifolia,BEPO,Bouleau gris,Gray Birch,292,150,#832E9E,#C12FEE,Autres,#8a8a84,#9a9a92
+Ulmus americana 'Brandon',ULAMBR,Orme d'Amérique Brandon,Brandon White Elm,292,151,#355DB6,#4C80F0,Autres,#8a8a84,#9a9a92
+Populus balsamifera,POBA,Peuplier baumier,Balsam Poplar,288,152,#59B635,#7AF04C,Autres,#8a8a84,#9a9a92
+Malus x 'Royalty',MAXXRO,Pommetier Royalty,Royalty Crab Apple,274,153,#F042CF,#D879C6,Autres,#8a8a84,#9a9a92
+Amelanchier,AM,Amélanchier,Serviceberry,271,154,#F04255,#D87983,Autres,#8a8a84,#9a9a92
+Salix alba 'Tristis',SAALTR,Saule pleureur,Golden Weeping Willow,270,155,#AB2128,#DD4049,Autres,#8a8a84,#9a9a92
+Tilia tomentosa 'Sterling',TITOST,Tilleul argenté Sterling,Sterling Silver Linden,267,156,#6235B6,#864CF0,Autres,#8a8a84,#9a9a92
+Tilia x europaea 'Wratislaviensis',TIERWR,Tilleul de Varsovie,Warsaw Linden,265,157,#DA3E62,#E87D96,Autres,#8a8a84,#9a9a92
+Cercis canadensis,CICA,Cercis canadensis,Cercis canadensis,261,158,#6A36E2,#A083E2,Autres,#8a8a84,#9a9a92
+Quercus robur,QURO,Chêne pédonculé,English Oak,256,159,#CD2A1D,#DA6B62,Autres,#8a8a84,#9a9a92
+Acer nigrum,ACNI,Érable noir,Black Maple,251,160,#E23671,#E283A4,Autres,#8a8a84,#9a9a92
+Ulmus pumila 'Park Royal',ULPUPR,Orme de Sibérie Park Royal,Park Royal Siberian Elm,251,161,#D9129C,#D369B3,Autres,#8a8a84,#9a9a92
+Malus x 'Profusion',MAXXPR,Pommetier Profusion,Profusion Crab Apple,244,162,#5BDA3E,#91E87D,Autres,#8a8a84,#9a9a92
+Tilia tomentosa 'Satin Shadow',TITOSS,Tilleul argenté Satin Shadow,Satin Shadow Silver Linden,243,163,#D99212,#D3AE69,Autres,#8a8a84,#9a9a92
+Picea pungens 'Koster',PIPUKO,Épinette du Colorado Koster,Koster's Blue Spruce,242,164,#D17A61,#F27F5F,Autres,#8a8a84,#9a9a92
+Populus tremuloides,POTR,Peuplier faux-tremble,Trembling Aspen,242,165,#F09A42,#D8A979,Autres,#8a8a84,#9a9a92
+Acer x Freemanii 'Morgan',ACFRMO,Érable rouge Morgan,Morgan Maple,240,166,#CA61D1,#E95FF2,Autres,#8a8a84,#9a9a92
+Abies concolor,ABCO,Sapin argenté,White Fir,232,167,#B63551,#F04C6F,Autres,#8a8a84,#9a9a92
+Populus,PO,Peuplier,"Poplar, Aspen, Cottonwood",232,168,#D1F042,#C7D879,Autres,#8a8a84,#9a9a92
+Crataegus crus-galli inermis,CGCGIN,Aubépine crus-galli inerme,Crus-galli Hawthorn,228,169,#B36119,#D48A49,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Autumn Purple',FRAMAP,Frêne d'Amérique Autumn Puple,Autumn Purple Ash,225,170,#3EC0DA,#7DD6E8,Autres,#8a8a84,#9a9a92
+Amelanchier g. 'Princess Diana',AMGRPD,Amelanchier g. 'Princess Diana',Amelanchier g. 'Princess Diana',221,171,#8021AB,#AC40DD,Autres,#8a8a84,#9a9a92
+Salix nigra,SANI,Saule noir,Black Willow,221,172,#54DEC0,#6CE5CA,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Emerald Lustre',ACPLEL,Acer platanoides Emerald Lustre,Acer platanoides Emerald Lustre,213,173,#DA3E54,#E87D8C,Autres,#8a8a84,#9a9a92
+Abies balsamea,ABBA,Sapin baumier,Balsam Fir,211,174,#12D921,#69D371,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Firefall',ACFRFI,Acer x freemanii 'Firefall',Acer x freemanii 'Firefall',211,175,#3EBDDA,#7DD4E8,Autres,#8a8a84,#9a9a92
+Liriodendron tulipifera Emerald City TM,LITUEC,Liriodendron Emerald City,Emerald City Tulip Tree,211,176,#5CC526,#89E25A,Autres,#8a8a84,#9a9a92
+Malus baccata 'Rosthern',MABARH,Pommetier Rosthern,Rosthern Crab Apple,211,177,#C55826,#E2855A,Autres,#8a8a84,#9a9a92
+Ulmus x 'Patriots',ULXXPA,Ulmus x Patriots,Ulmus x Patriots,209,178,#B35519,#D48049,Autres,#8a8a84,#9a9a92
+Malus x 'Makamik',MAXXMA,Pommetier Makamik,Makamik Crab Apple,205,179,#BCE64C,#C1DE73,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Spectrum',GLTRSP,Févier Spectrum,Spectrum Honey-Locust,203,180,#812E9E,#BD2FEE,Autres,#8a8a84,#9a9a92
+Syringa reticulata 'Golden Eclipse',SYREGE,Lilas japonais Golden Eclipse,Golden Eclipse Japanese Tree Lilac,193,181,#7521AB,#A040DD,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Columnarbroad',ACPLCB,Érable de Norvège Parkway,Parkway Norway Maple,188,182,#8CD161,#97F25F,Autres,#8a8a84,#9a9a92
+Quercus coccinea,QUCO,Chêne écarlate,Scarlet Oak,187,183,#B35819,#D48249,Autres,#8a8a84,#9a9a92
+Platanus x a. 'Morton Circle (Exclamation TM),PLACEX,Platane Exclamation,Exclamation London Planetree,186,184,#B3193E,#D4496B,Autres,#8a8a84,#9a9a92
+Picea pungens 'Hoopsii',PIPUHO,Épinette du Colorado Hoopsii,Hoopse's Blue Spruce,184,185,#42F09B,#79D8AA,Autres,#8a8a84,#9a9a92
+Picea pungens Iseli Fastigiata,PIPUIF,épinette,spruce Iseli Fastigiata,183,186,#D91294,#D369AF,Autres,#8a8a84,#9a9a92
+Crataegus x mordenensis 'Toba',CGMOTO,Aubépine mordenensis Toba,Toba Hawthorn,182,187,#4CB8E6,#73BEDE,Autres,#8a8a84,#9a9a92
+Maackia amurensis 'Summertime',MCAMSU,Maackia Summertime,Summertime Amur Maackia,179,188,#2BEE51,#88DD99,Autres,#8a8a84,#9a9a92
+Amelanchier x grandiflora 'Ballerina',AMGRBA,Ballerina Serviceberry,Amelanchier Ballerina,177,189,#B63553,#F04C72,Autres,#8a8a84,#9a9a92
+Zelkova serrata,ZESE,Zelkova du Japon,Japanese Zelkova,176,190,#35B662,#4CF085,Autres,#8a8a84,#9a9a92
+Malus x 'Indian Magic',MAXXIM,Pommetier Indian Magic,Indian Magic Crab Apple,175,191,#AB2180,#DD40AC,Autres,#8a8a84,#9a9a92
+Quercus muehlenbergii,QUMU,Quercus muehlenbergii,Quercus muehlenbergii,173,192,#C5BD26,#E2DB5A,Autres,#8a8a84,#9a9a92
+Malus x 'Dolgo',MAXXDO,Pommetier Dolgo,Dolgo Crab Apple,172,193,#3EDA8A,#7DE8B1,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Manitou',FRAMMA,Frêne d'Amérique Manitou,Manitou White Ash,170,194,#36E269,#83E29F,Autres,#8a8a84,#9a9a92
+Malus baccata 'Columnaris',MABACO,Pommetier de Sibérie colonnaire,Columnar Siberian Crab Apple,170,195,#549BDE,#6CAAE5,Autres,#8a8a84,#9a9a92
+Prunus virginiana,PRVI,Cerisier de Virginie,Chokecherry,167,196,#E64CC0,#DE73C3,Autres,#8a8a84,#9a9a92
+Ginkgo biloba ''Magyar'',GIBIMG,Ginkgo biloba Magyar,Ginkgo biloba Magyar,166,197,#5A26C5,#875AE2,Autres,#8a8a84,#9a9a92
+Juniperus,JN,Génévrier,Juniper,166,198,#3BB319,#67D449,Autres,#8a8a84,#9a9a92
+Quercus imbricaria,QUIM,Chêne à feuilles de Laurier,Shingle oak,162,199,#61F042,#89D879,Autres,#8a8a84,#9a9a92
+Rhus typhina,RUTY,Vinaigrier,Staghorn Sumac,162,200,#C55226,#E2805A,Autres,#8a8a84,#9a9a92
+Ulmus americana 'New Harmony',ULAMNH,Ulmus americana New Harmony,Ulmus americana New Harmony,160,201,#88CD1D,#ABDA62,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Sienna Glen',ACFRSG,Acer x freemanii 'Sienna Glen',Acer x freemanii 'Sienna Glen',159,202,#36E26C,#83E2A1,Autres,#8a8a84,#9a9a92
+Liquidambar styraciflua 'Moraine',LQSTMO,Liquidambar 'Moraine',Moraine Sweetgum,157,203,#A1B319,#C4D449,Autres,#8a8a84,#9a9a92
+Quercus,QU,Chêne,Oak,156,204,#CB4D5E,#F47183,Autres,#8a8a84,#9a9a92
+Ulmus x 'Morton Plainsman' (Vanguard TM),ULXXVG,Orme Vanguard,Vanguard Elm,156,205,#86AB21,#B4DD40,Autres,#8a8a84,#9a9a92
+Ulmus americana ''Colonial Spirit'' (TM),ULAMCS,Orme d'Amérique Colonial Spirit,Colonial Spirit american elm,152,206,#D91216,#D3696B,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Red Sunset',ACRURS,Érable rouge Red Sunset,Red Sunset Red Maple,149,207,#D91289,#D369A9,Autres,#8a8a84,#9a9a92
+Aesculus,AE,Marronnier,Horsechesnut,148,208,#0F3EBD,#5172CD,Autres,#8a8a84,#9a9a92
+Acer tataricum,ACTA,Érable de Tartarie,Tartarian Maple,143,209,#36E2DF,#83E2E0,Autres,#8a8a84,#9a9a92
+Picea pungens 'Fat Albert',PIPUFA,Épinette du Colorado Fat Albert,Fat Albert Colorado Spruce,142,210,#A4B319,#C7D449,Autres,#8a8a84,#9a9a92
+Zelkova serrata 'Green Vase',ZESEGV,Zelkova du Japon Green Vase,Green Vase Japanese Zelkova,142,211,#92EE2B,#B5DD88,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Elegantissima',GLTREL,Févier Elegantissima,Elegantissima Honey Locust,141,212,#E64C54,#DE7377,Autres,#8a8a84,#9a9a92
+Prunus virginiana 'Canada Red',PRVICR,Cerisier de Virginie Canada Red,Canada Red Chokecherry,141,213,#26C5BE,#5AE2DC,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Globosum',ACPLGL,Érable de Norvège globe,Globe Norway Maple,140,214,#E036E2,#E183E2,Autres,#8a8a84,#9a9a92
+Picea pungens Colson's Select Blue,PIPUCS,épinette bleu Colson's Select Blue,Colorado spruce Colson's Select Blue,138,215,#5FC526,#8BE25A,Autres,#8a8a84,#9a9a92
+Salix,SA,Saule,Willow,137,216,#904DCB,#B671F4,Autres,#8a8a84,#9a9a92
+Malus x 'Thunderchild',MAXXTH,Pommetier Thunderchild,Thunderchild Crab Apple,133,217,#4DCB94,#71F4BB,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia,SOAU,Sorbier des oiseaux,European Mountain Ash,132,218,#9E7C2E,#EEB42F,Autres,#8a8a84,#9a9a92
+Alnus glutinosa 'Imperialis',ALGLIM,Aulne glutineux Imperialis,Imperialis European Black Alder,127,219,#AB217A,#DD40A6,Autres,#8a8a84,#9a9a92
+Rhamnus cathartica,RHCA,Nerprun cathartique,European Buckthorn,126,220,#D5F042,#C9D879,Autres,#8a8a84,#9a9a92
+Syringa,SY,Lilas,Lilac,126,221,#61DA3E,#95E87D,Autres,#8a8a84,#9a9a92
+Ulmus parvifolia,ULPA,Ulmus parvifolia,Ulmus parvifolia,126,222,#D17661,#F27A5F,Autres,#8a8a84,#9a9a92
+Cornus alternifolia,CNAL,Cornouiller à feuilles alternes,Alternate-leaf Dogwood,125,223,#8D3EDA,#B37DE8,Autres,#8a8a84,#9a9a92
+Morus alba,MOAL,Mûrier blanc,White Mulberry,124,224,#7F2E9E,#BA2FEE,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Green Mountain',ACSCGM,Érable à sucre 'Green Mountain',Green Mountain Sugar Maple,122,225,#35B66E,#4CF094,Autres,#8a8a84,#9a9a92
+Larix,LA,Mélèze,Larch,122,226,#3556B6,#4C76F0,Autres,#8a8a84,#9a9a92
+Picea rubens,PIRU,Épinette rouge,Red Spruce,121,227,#883EDA,#AF7DE8,Autres,#8a8a84,#9a9a92
+Betula,BE,Bouleau,Birch,116,228,#D82BEE,#D388DD,Autres,#8a8a84,#9a9a92
+Malus baccata,MABA,Pommetier de Sibérie,Siberian Crab Apple,116,229,#B3193C,#D44968,Autres,#8a8a84,#9a9a92
+Populus alba 'Pyramidalis',POALPY,Peuplier blanc pyramidal,Bolleana Poplar,111,230,#1312D9,#6A69D3,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Nigra',THOCNI,Thuya occidental Nigra,Nigra American Arborvitae,110,231,#B6355D,#F04C7F,Autres,#8a8a84,#9a9a92
+Amelanchier laevis 'Spring Flurry',AMLASF,Amélanchier glabre Spring Flurry,Spring Flurry Serviceberry,109,232,#E6AF4C,#DEB773,Autres,#8a8a84,#9a9a92
+Pyrus ussuriensis 'Prairie Gem',PYUSPG,Poirier de Mandchourie Prairie Gem,Prairie Gem Ussurian Pear,109,233,#35B1B6,#4CEBF0,Autres,#8a8a84,#9a9a92
+Malus baccata 'Erecta',MABAER,Pommetier de Sibérie erecta,Erecta Siberian Crab Apple,108,234,#CEF042,#C5D879,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Princeton Gold',ACPLPG,Acer platanoides 'Princeton Gold',Acer platanoides Princeton Gold,107,235,#BD550F,#CD8351,Autres,#8a8a84,#9a9a92
+Nyssa sylvatica,NYSY,Nyssa sylvatica,Nyssa sylvatica,106,236,#425CF0,#7987D8,Autres,#8a8a84,#9a9a92
+Malus x 'Spring Snow',MAXXSS,Malus Spring Snow,Malus Spring Snow,105,237,#1D80CD,#62A6DA,Autres,#8a8a84,#9a9a92
+Populus nigra 'Thevestina',PONITH,Peuplier de Thebessa,Thebessa Poplar,103,238,#0F48BD,#5179CD,Autres,#8a8a84,#9a9a92
+Quercus x Kindred Spirit,QUXXKS,Chêne Kindred Spirit,Kindred Spirit Hybrid Oak,103,239,#AB7621,#DDA140,Autres,#8a8a84,#9a9a92
+Tilia tomentosa 'Brabant',TITOBR,Tilia tomentosa 'Brabant',Tilia tomentosa 'Brabant',103,240,#26C5BB,#5AE2D9,Autres,#8a8a84,#9a9a92
+Malus x adstringens 'Durleo' (Gladiator TM),MAXDU,Malus x adstringens 'Durleo' (Gladiator TM),Malus x adstringens 'Durleo' (GladiatorTM),102,241,#DA893E,#E8B07D,Autres,#8a8a84,#9a9a92
+Sorbus intermedia,SOIN,Alisier de Suède,Swedish Whitebeam,102,242,#12D994,#69D3AE,Autres,#8a8a84,#9a9a92
+Tilia americana 'Boulevard',TIAMBO,Tilleul d'Amérique Boulevard,Boulevard Linden,102,243,#9642F0,#A779D8,Autres,#8a8a84,#9a9a92
+Malus x 'Radiant',MAXXRA,Pommetier Radiant,Radiant Crab Apple,100,244,#4DAECB,#71D6F4,Autres,#8a8a84,#9a9a92
+Populus nigra,PONI,Peuplier Noir,Black Poplar,100,245,#36E262,#83E29B,Autres,#8a8a84,#9a9a92
+Crataegus x mordenensis 'Snowbird',CGMOSN,Aubépine mordenensis Snowbird,Snowbird Hawthorn,97,246,#D1618F,#F25F9B,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Golden Colonnade',GIBIGC,Ginkgo biloba 'Golden Colonnade',Golden Colonnade Maidenhair tree,97,247,#1D7DCD,#62A3DA,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Rubylace',GLTRRU,Févier Rubylace,Rubylace Honey-Locust,97,248,#E23678,#E283A7,Autres,#8a8a84,#9a9a92
+Malus x 'Madonna',MAXXMD,Pommetier Madonna,Madonna Crab Apple,97,249,#6192D1,#5F9FF2,Autres,#8a8a84,#9a9a92
+Betula papyrifera 'Renaissance Reflection',BEPARR,Bouleau à papier 'Renaissance Reflection','Renaissance Reflection paper birch,96,250,#B635A9,#F04CE0,Autres,#8a8a84,#9a9a92
+Phellodendron l. 'Longenecker' (Eye Stopper),PHLALO,Phellodendron Lavallei Eye Stopper,Eye Stopper Cork Tree,95,251,#342E9E,#3A2FEE,Autres,#8a8a84,#9a9a92
+Aesculus octandra,AEOC,Aesculus octandra,Aesculus octandra,94,252,#128AD9,#69A9D3,Autres,#8a8a84,#9a9a92
+Amelanchier x grandiflora 'Robin Hill',AMGRRH,Amélanchier  Robin Hill,Robin Hill Serviceberry,91,253,#1D7ACD,#62A1DA,Autres,#8a8a84,#9a9a92
+Betula pendula,BEPE,Bouleau européen,European White Birch,91,254,#DA8E3E,#E8B47D,Autres,#8a8a84,#9a9a92
+Robinia pseudoacacia 'Purple Robe',ROPSPR,Robinia pseudoacacia Purple Robe,Robinia pseudoacacia Purple Robe,89,255,#3EC8DA,#7DDCE8,Autres,#8a8a84,#9a9a92
+Juniperus virginiana,JNVI,Genévrier de Virginie,Eastern Red Cedar,87,256,#AB4CE6,#B573DE,Autres,#8a8a84,#9a9a92
+Magnolia,MG,Magnolia,Magnolia,87,257,#CB4D59,#F4717E,Autres,#8a8a84,#9a9a92
+Salix alba,SAAL,Saule blanc,White Willow,86,258,#36E25F,#83E29A,Autres,#8a8a84,#9a9a92
+Pyrus,PY,Poirier,Pear,84,259,#40B319,#6DD449,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia 'Rossica',SOAURS,Sorbier des oiseaux Rossica,Rossica European Mountain Ash,84,260,#C1E64C,#C5DE73,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Purpurea',FASYPU,Hêtre européen purpurea,Purpurea European Beech,82,261,#4CE6AD,#73DEB6,Autres,#8a8a84,#9a9a92
+Picea abies 'Cupressina',PIABCU,Épinette de Norvège Cupressina,Cupressina Norway spruce,81,262,#42D0F0,#79C7D8,Autres,#8a8a84,#9a9a92
+Sorbus,SO,Sorbier,Mountain Ash,81,263,#4D5FCB,#7183F4,Autres,#8a8a84,#9a9a92
+Salix matsudana 'Tortuosa',SAMATO,Saule tortueux de Pékin,Corkscrew Willow,80,264,#B319A8,#D449CA,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Crimson Sentry',ACPLCS,Érable de Norvège Crimson Sentry,Crimson Sentry Norway Maple,78,265,#D9A512,#D3B869,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Morgan',ACRUMO,Érable rouge Morgan,Morgan Red Maple,78,266,#CB54DE,#D46CE5,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Kleinberg',FRAMKL,Frêne d'Amérique Kleinberg,Kleinberg White Ash,78,267,#974DCB,#BE71F4,Autres,#8a8a84,#9a9a92
+Acer tataricum 'GarAnn' (Hot Wings TM),ACTAGA,érable de Tartarie 'GarAnn' (Hot Wings TM),Tatarian maple 'GarAnn' (Hot Wings TN),77,268,#AB8021,#DDAD40,Autres,#8a8a84,#9a9a92
+Acer x freemanii 'Scarlet Sentinel',ACFRSS,Acer x freemanii 'Scarlet Sentinel',Acer x  freemanii 'Scarlet Sentinel',77,269,#9A4DCB,#C071F4,Autres,#8a8a84,#9a9a92
+Amelanchier x grandiflora,AMGR,Amélanchier à grandes fleurs,Apple Serviceberry,77,270,#5D26C5,#8A5AE2,Autres,#8a8a84,#9a9a92
+Populus alba,POAL,Peuplier blanc,European White Poplar,77,271,#C461D1,#E15FF2,Autres,#8a8a84,#9a9a92
+Abies,AB,Sapin,Fir,76,272,#6026C5,#8C5AE2,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Woodstock' (Emperor TM),GIBIWO,Ginkgo biloba 'Woodstock' (Emperor TM),Ginkgo biloba 'Woodstock' (Emperor TM),76,273,#2121AB,#4041DD,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Corzam',TICOCO,Tilleul à petites feuilles Corinthien,Corinthian Littleleaf Linden,76,274,#1DCD9E,#62DABA,Autres,#8a8a84,#9a9a92
+Acer nigrum 'Green Column',ACNIGC,Érable noir Green Column,Green Column Black Maple,75,275,#2179AB,#40A4DD,Autres,#8a8a84,#9a9a92
+Catalpa bignonioides 'Nana',CTBINA,Catalpa parasol,Umbrella catalpa,73,276,#382E9E,#412FEE,Autres,#8a8a84,#9a9a92
+Fraxinus nigra,FRNI,Frêne noir,Black Ash,73,277,#AB217D,#DD40A9,Autres,#8a8a84,#9a9a92
+Syringa vulgaris,SYVU,Syringa vulgaris,Syringa vulgaris,73,278,#9E312E,#EE342F,Autres,#8a8a84,#9a9a92
+Thuja,TH,Thuya,Arborvitae,73,279,#E6A34C,#DEAF73,Autres,#8a8a84,#9a9a92
+Populus grandidentata,POGR,Peuplier à grandes dents,Large Toothed Aspen,72,280,#924DCB,#B971F4,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Smaragd',THOCSM,Thuya occidental Smaragd,Emerald Arborvitae,72,281,#C9DA3E,#DCE87D,Autres,#8a8a84,#9a9a92
+Populus tremula 'Erecta',POTEER,Tremble européen colonnaire,Upright European Aspen,71,282,#54DEC2,#6CE5CD,Autres,#8a8a84,#9a9a92
+Quercus palustris 'Green Pillar',QUPAGP,Quercus palustris Green Pillar,Quercus palustris Green Pillar,71,283,#35B664,#4CF088,Autres,#8a8a84,#9a9a92
+Amelanchier laevis 'Cumulus',AMLACU,Amelanchier laevis Cumulus,Amelanchier laevis Cumulus,68,284,#1937B3,#4964D4,Autres,#8a8a84,#9a9a92
+Pyrus ussuriensis 'Mountain Frost',PYUSMF,Pyrus ussuriensis 'Mountain Frost',Pyrus ussuriensis 'Mountain Frost',68,285,#D91298,#D369B1,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Armstong Gold',ACRUAG,érable Armstong Gold,Armstrong Gold red maple,67,286,#78CD1D,#A0DA62,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Lutescens',ACSALU,Érable argenté lutescens,Golden Silver maple,66,287,#CB4D54,#F47179,Autres,#8a8a84,#9a9a92
+Populus sp.(hybrides),POXX,Populus sp.(hybrides),Populus sp.(hybrides),66,288,#B319A5,#D449C8,Autres,#8a8a84,#9a9a92
+Maackia amurensis ''MaccNificient'',MCAMMA,Macckie de l'Amur MaacNificient,MaackNificient Macckia,65,289,#CDA71D,#DAC062,Autres,#8a8a84,#9a9a92
+Malus x 'Hopa',MAXXHO,Pommetier Hopa,Hopa Crab Apple,64,290,#7AE236,#A8E283,Autres,#8a8a84,#9a9a92
+Pinus cembra,PNCE,Pinus cembra,Pinus cembra,64,291,#81AB21,#AEDD40,Autres,#8a8a84,#9a9a92
+Abies sibirica,ABSI,Abies sibirica,Abies sibirica,63,292,#BBDA3E,#D3E87D,Autres,#8a8a84,#9a9a92
+Aesculus x hybrida,AEHY,Aesculus x hybrida,Aesculus x hybrida,63,293,#EE572B,#DD9C88,Autres,#8a8a84,#9a9a92
+Crataegus crus-galli,CGCG,Crataegus crus-galli,Crataegus crus-galli,63,294,#2E9E83,#2FEEC0,Autres,#8a8a84,#9a9a92
+Amelanchier canadensis 'Ballerina',AMCABA,Amélanchier du Canada Ballerina,Ballerina Downy Serviceberry,61,295,#4DAACB,#71D1F4,Autres,#8a8a84,#9a9a92
+Liquidambar styraciflua Worplesdon,LQSTWO,Liquidambar Worplesdon,Sweetgum Worplesdon,61,296,#42F09E,#79D8AB,Autres,#8a8a84,#9a9a92
+Juglans,JU,Noyer,"Walnut, Butternut",60,297,#2B86EE,#88B0DD,Autres,#8a8a84,#9a9a92
+Amelanchier arborea,AMAR,Amelanchier arborea,Amelanchier arborea,59,298,#361DCD,#7362DA,Autres,#8a8a84,#9a9a92
+Pterocarya stepnotera,PTST,Ptérocaryer de Chine,Chinese Wingnut,59,299,#322E9E,#372FEE,Autres,#8a8a84,#9a9a92
+Carya,CR,Caryer,Hickory,58,300,#2B82EE,#88AEDD,Autres,#8a8a84,#9a9a92
+Magnolia kobus,MGKO,Magnolia kobus,=,58,301,#B35E19,#D48749,Autres,#8a8a84,#9a9a92
+Sorbus alnifolia,SOAL,Sorbier de Corée,Korean Mountain Ash,57,302,#80E236,#ACE283,Autres,#8a8a84,#9a9a92
+Ulmus americana Prairie Expedition,ULAMPE,Orme americain,American Elm,57,303,#CB8F4D,#F4B571,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Columnare',ACRUCO,Érable rouge colonnaire,Columnare Red Maple,56,304,#BD0F3D,#CD5172,Autres,#8a8a84,#9a9a92
+Malus x 'Jefspire' (Purple Spire TM),MAXXJE,Pommetier Purple Spire,Purple Spire Crabapple,56,305,#5D19B3,#8649D4,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Fastigiata',THOCFA,Thuya occidental fastigié,Pyramidal Arborvitae,56,306,#15D912,#6BD369,Autres,#8a8a84,#9a9a92
+Aesculus carnea 'Briotii',AECABR,Aesculus carnea 'Briotii',Aesculus carnea 'Briotii',55,307,#B3199C,#D449C0,Autres,#8a8a84,#9a9a92
+Malus x 'Rudolph',MAXXRU,Malus Rudolph,Malus Rudolph,55,308,#61D1C5,#5FF2E3,Autres,#8a8a84,#9a9a92
+Populus nigra 'Italica',PONIIT,Peuplier de Lombardie,Lombardy Poplar,53,309,#AB2125,#DD4046,Autres,#8a8a84,#9a9a92
+Liquidambar styraciflua 'Cherokee',LQSTCH,Copalme d'Amérique 'Cherokee',Sweetgum 'Cherokee',52,310,#2E709E,#2FA1EE,Autres,#8a8a84,#9a9a92
+Malus baccata 'Jackii',MABAJA,Malus baccata 'Jackii',Malus baccata 'Jackii',52,311,#C661D1,#E45FF2,Autres,#8a8a84,#9a9a92
+Pinus nigra,PNNI,Pin noir,Black pine,52,312,#D16193,#F25FA1,Autres,#8a8a84,#9a9a92
+Acer g. Flame tiges multiples,ACGIFT,Acer g. Flame tiges multiples,Acer g. Flame tiges multiples,51,313,#9E2E6C,#EE2F98,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Pyramidalis',THOCPY,Thuya occidental pyramidal,Pyramid Cedar,51,314,#1D87CD,#62AADA,Autres,#8a8a84,#9a9a92
+Aesculus x carnea 'Fort McNair',AECAFM,Aesculus x carnea Fort McNair,Aesculus x carnea Fort McNair,50,315,#3EDA8F,#7DE8B5,Autres,#8a8a84,#9a9a92
+Betula p. ''Parkland Pillar''TM (Jefpark),BEPLPP,bouleau du Japon,Japanese white birch,50,316,#E64C51,#DE7375,Autres,#8a8a84,#9a9a92
+Quercus macrocarpa Urban Pinnacle,QUMAUP,Chêne à gros fruits Urban Pinnacle,Urban Pinnacle Oak,49,317,#4CC1E6,#73C4DE,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Northern Blaze',FRAMNB,Frêne d'Amérique Northern Blaze,Northern Blaze White Ash,48,318,#AB2121,#DD4140,Autres,#8a8a84,#9a9a92
+Malus baccata 'Mandshurica',MABAMN,Pommetier Mandshurica,Mandshurica Crab Apple,48,319,#4CE6AA,#73DEB4,Autres,#8a8a84,#9a9a92
+Malus x 'Golden Raindrops',MAXXGR,Malus x 'Golden Raindrops',Malus x 'Golden Raindrops',48,320,#EE502B,#DD9888,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Apollo',ACSCAP,Acer saccharum Apollo,Acer saccharum Apollo,47,321,#54F042,#82D879,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Legacy',ACSCLE,Acer saccharum Legacy,Acer saccharum Legacy,47,322,#CD381D,#DA7462,Autres,#8a8a84,#9a9a92
+Pyrus ussuriensis,PYUS,Pyrus ussuriensis,Pyrus ussuriensis,47,323,#62C526,#8EE25A,Autres,#8a8a84,#9a9a92
+Ginkgo b.'The President' (Presidential Gold),GIBIPG,Ginkgo biloba 'The President',Presidential Gold Maidenhair tree,46,324,#61D1C8,#5FF2E5,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Temple Upright',ACSCTU,Érable à sucre Temple Upright,Temple Upright Sugar Maple,45,325,#3E54DA,#7D8CE8,Autres,#8a8a84,#9a9a92
+Pinus nigra 'Arnold Sentinel',PNNIAS,Pin noir d'Autriche Arnold Sentinel,Arnold Sentinel Austrian Pine,45,326,#4CBEE6,#73C2DE,Autres,#8a8a84,#9a9a92
+Salix x chrysocoma,SAXXCR,Salix x chrysocoma,Salix x chrysocoma,45,327,#B2B635,#ECF04C,Autres,#8a8a84,#9a9a92
+Zelkova serrata ''Musashino'',ZESEMU,Zelkova Musashino,Musashino Zelkova,45,328,#CD271D,#DA6962,Autres,#8a8a84,#9a9a92
+Tilia a. Lincoln,TIAMLI,Tilia a. Lincoln,Tilia a. Lincoln,44,329,#19A9B3,#49CBD4,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Ronald',TICORO,Tilleul à petites feuilles 'Ronald',Ronald Littleleaf Linden,44,330,#7B2E9E,#B32FEE,Autres,#8a8a84,#9a9a92
+Ulmus americana ' Jefferson',ULAMJE,Orme américain Jefferson,Jefferson American elm,44,331,#26C550,#5AE27F,Autres,#8a8a84,#9a9a92
+Carpinus betulus 'Fastigiata',CABEFA,Charme européen fastigié,Pyramidal European Hornbeam,43,332,#26C3C5,#5AE0E2,Autres,#8a8a84,#9a9a92
+Malus x 'Royal Raindrops',MAXXRR,Malus x 'Royal Raindrops',Malus x 'Royal Raindrops,42,333,#9CDE54,#ABE56C,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Bowhall',ACRUBO,Acer rubrum 'Bowhall',Acer rubrum 'Bowhall',41,334,#6D36E2,#A183E2,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Halka',GLTRHA,Févier Halka,Halka Honey-Locust,40,335,#8FD912,#ACD369,Autres,#8a8a84,#9a9a92
+Morus rubra,MORU,Mûrier rouge,Red Mulberry,40,336,#DE6754,#E57D6C,Autres,#8a8a84,#9a9a92
+Sorbus decora,SODE,Sorbier des montagnes,Showy Mountain Ash,39,337,#BC26C5,#DA5AE2,Autres,#8a8a84,#9a9a92
+Ulmus propinqua 'Emerald Sunshine TM,ULPRES,Ulmus propinqua 'Emerald Sunhine' TM,Ulmus propinqua 'Emerald Sunhine' TM,39,338,#4C5DE6,#737EDE,Autres,#8a8a84,#9a9a92
+Acer palmatum,ACPA,Érable du Japon,Japanese Maple,38,339,#B0BD0F,#C3CD51,Autres,#8a8a84,#9a9a92
+Amelanchier canadensis tiges multiples,AMCT,Amelanchier du Canada tiges multiples,Multistem Downy Serviceberry,38,340,#E2DE36,#E2E083,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia 'Cardinal Royal',SOAUCR,Sorbier des oiseaux Cardinal Royal,Cardinal Royal European Mountain Ash,38,341,#5719B3,#8149D4,Autres,#8a8a84,#9a9a92
+Acer freemanii 'Amstrong Gold'',ACFRAG,Acer fremanii 'Armstrong Gold,Acer fremanii Arnstrong Gold,35,342,#2521AB,#4640DD,Autres,#8a8a84,#9a9a92
+Nyssa sylvatica 'Wildfire',NYSYWI,Gommier noir 'Wildfire',Wildfire Black gum,35,343,#D99A12,#D3B269,Autres,#8a8a84,#9a9a92
+Pseudotsuga menziesii,PSME,Sapin de Douglas,Douglas Fir,35,344,#D336E2,#DA83E2,Autres,#8a8a84,#9a9a92
+Cercidiphyllum j. 'Biringer'(Hanna'sHeartTM),CDJABI,Arbre de Katsura 'Coeur d'Hanna',Katsura tree 'Hanna's Heart',34,345,#7BCD1D,#A2DA62,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Fastigiata',GIBIFA,Ginkgo Fastigiata,Fastigiata MAidenhair tree,34,346,#B63555,#F04C75,Autres,#8a8a84,#9a9a92
+Thuya occidentalis 'Wareana',THOCWA,Thuya occidentalis 'Wareana',Thuya occidentalis 'Wareana',34,347,#2129AB,#404ADD,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Northwood',ACRUNO,Érable rouge Northwood,Northwood Red Maple,33,348,#42F0A5,#79D8AF,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Wierie',ACSAWE,Acer saccharinum Wierie,Acer saccharinum Wierie,33,349,#B36319,#D48D49,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Prairies Spires',FRPEPS,Frêne de Pennsylvanie Prairies Spires,Prairies Spires Red Ash,33,350,#331DCD,#7162DA,Autres,#8a8a84,#9a9a92
+Larix kaempferi Jacobsen's Pyramid,LAKAJP,mélèze du Japon Jacobsen's Pyramid,Jacobsen's Pyramid Japanese larch,33,351,#22AB21,#42DD40,Autres,#8a8a84,#9a9a92
+Morus,MO,Mûrier,Mulberry,33,352,#BABD0F,#CACD51,Autres,#8a8a84,#9a9a92
+Picea pungens ''Baby Blue Eyes'',PIPUBB,Épinette du Colorado Baby Blue Eyes,Baby Blue Eyes Colorado Spruce,33,353,#CB934D,#F4BA71,Autres,#8a8a84,#9a9a92
+Salix pentendra,SAPE,Saule laurier,Laurel Willow,33,354,#F09742,#D8A779,Autres,#8a8a84,#9a9a92
+Sorbus americana,SOAM,Sorbier d'Amérique,American Ash,33,355,#AB2185,#DD40B2,Autres,#8a8a84,#9a9a92
+Taxus,TA,If,Yew,33,356,#F042D6,#D879CA,Autres,#8a8a84,#9a9a92
+Catalpa,CT,Catalpa,Catalpa,32,357,#BD520F,#CD8151,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Red Obelisk',FASYRO,Hêtre européen 'Red Obelisk',Red Obelisk European beech,32,358,#C55B26,#E2885A,Autres,#8a8a84,#9a9a92
+Larix kaempferi,LAKA,Mélèze du Japon,Japanese Larch,32,359,#2BEED4,#88DDD1,Autres,#8a8a84,#9a9a92
+Malus ioensis,MAIO,Pommetier de Bechtel,Bechtel Crab Apple,32,360,#719E2E,#A2EE2F,Autres,#8a8a84,#9a9a92
+Malus x DreamWeaver (TM),MAXXDR,Pommetier colonnaire 'DreamWeaver',DreamWeaver columnar Crabapple,32,361,#9C42F0,#AA79D8,Autres,#8a8a84,#9a9a92
+Metasequoia glyptostroboides,MEGL,Métaséquoia,Dawn Redwood,32,362,#2180AB,#40ADDD,Autres,#8a8a84,#9a9a92
+Morus alba 'Pendula',MOALPE,Mûrier blanc pleureur,Weeping White Mulberry,32,363,#19B35C,#49D486,Autres,#8a8a84,#9a9a92
+Ulmus x 'Sapporo Autumn Gold',ULXXSA,Orme Sapporo Autumn Gold,Sapporo Autumn Gold Elm,32,364,#6154DE,#786CE5,Autres,#8a8a84,#9a9a92
+Alnus incana,ALIN,Alnus incana,Alnus incana,31,365,#9E842E,#EEC22F,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Skyline',FRAMSK,Frêne d'Amérique Skyline,Skyline White Ash,31,366,#0F41BD,#5175CD,Autres,#8a8a84,#9a9a92
+Malus x 'Snowdrift',MAXXSO,Pommetier Snowdrift,Snowdrift Crabapple,31,367,#B63558,#F04C78,Autres,#8a8a84,#9a9a92
+Acer campestre,ACCA,Érable champêtre,Hedge Maple,30,368,#E26E36,#E2A283,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Fall Fiesta,ACSCFF,Érable à sucre Fall Fiesta,Fall Fiesta sugar maple,30,369,#A412D9,#B769D3,Autres,#8a8a84,#9a9a92
+Acer rubrum 'October Glory',ACRUOG,Acer rubrum 'October Glory',Acer rubrum 'October Glory',29,370,#D18061,#F2875F,Autres,#8a8a84,#9a9a92
+Aesculus x arnoldiana Autumn Splendor,AEXXAS,maronnier Autumn Splendor,Autumn Splendor Buckeye,29,371,#A8B635,#DFF04C,Autres,#8a8a84,#9a9a92
+Cercis canadensis tiges multiples,CICT,Gainier du Canada tiges multiples,multi-stem Eastern redbud,29,372,#BD0F40,#CD5174,Autres,#8a8a84,#9a9a92
+Fagus sylvatica,FASY,Hêtre européen,European Beech,29,373,#510FBD,#8051CD,Autres,#8a8a84,#9a9a92
+Magnolia acuminata,MGAC,Magnolia acuminata,Magnolia acuminata,29,374,#7FAB21,#ABDD40,Autres,#8a8a84,#9a9a92
+Magnolia stellata 'Royal Star',MGSTRS,Magnolia étoile 'Royal Star',Star Magnolia 'Royal Star',29,375,#5AF042,#86D879,Autres,#8a8a84,#9a9a92
+Prunus padus,PRPA,Cerisier à grappes,European Birdcherry,29,376,#61D178,#5FF27D,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Frank Jr.. (Redpointe TM),ACRURE,érable rouge Redpointe,Redpointe Maple,28,377,#2E6C9E,#2F99EE,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Red Rocket',ACRURR,érable rouge Red Rocket,Red Rocket  Red Maple,28,378,#56C526,#84E25A,Autres,#8a8a84,#9a9a92
+Aesculus arguta,AEAR,Marronnier du Texas,Texas Buckeye,28,379,#6D9E2E,#9BEE2F,Autres,#8a8a84,#9a9a92
+Pyrus calleryana,PYCA,Poirier de Chine,Callery Pear,28,380,#DE549F,#E56CAE,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Fairview',ACPLFA,Érable de Norvège Fairview,Fairview Norway Maple,27,381,#A8CB4D,#CFF471,Autres,#8a8a84,#9a9a92
+Chamaecyparis nootkensis Pendula,CHNOPE,Faux-cyprès Pleureur,Weepin Nootka falsecypress,27,382,#D17E61,#F2855F,Autres,#8a8a84,#9a9a92
+Prunus cerasus ''Montmorency'',PRCAMO,Cerisier acide Montmorency,Montmorency Cherry plum,27,383,#193FB3,#496CD4,Autres,#8a8a84,#9a9a92
+Quercus X ''Atwood'' (Jordan StreetTM),QUALAT,Chêne Atwwod (Jordan Street),Atwwod (Jordan Street) hybrid oak,27,384,#367FE2,#83ABE2,Autres,#8a8a84,#9a9a92
+Viburnum Lentago,VILE,Viorne,Sheepberry,27,385,#9112D9,#AD69D3,Autres,#8a8a84,#9a9a92
+Acer x 'Pacific Sunset',ACXPS,Acer x 'Pacific Sunset',Acer x 'Pacific Sunset',26,386,#5496DE,#6CA6E5,Autres,#8a8a84,#9a9a92
+Betula platyphylla 'Dakota Pinnacle',BEPLDP,Bouleau blanc Dakota Pinnacle,Dakota Pinnacle White Birch,26,387,#B3BD0F,#C6CD51,Autres,#8a8a84,#9a9a92
+Ginkgo,GI,Ginkgo,Maidenhair Tree,26,388,#F042CC,#D879C4,Autres,#8a8a84,#9a9a92
+Gymnocladus dioicus (PrairieTitanTM),GYDIJC,Chicot 'Prairie Titan',Prairie Titan Kentucky coffeetree,26,389,#1DCD32,#62DA70,Autres,#8a8a84,#9a9a92
+Picea pungens 'Bakeri',PIPUBA,Picea pungens 'Bakeri',Picea pungens 'Bakeri',26,390,#6436E2,#9C83E2,Autres,#8a8a84,#9a9a92
+Ulmus 13-0053,UL1305,Orme vendu comme Morton Glossy,Ulmus 13-0053,26,391,#DE54A2,#E56CB0,Autres,#8a8a84,#9a9a92
+Acer saccharinum 'Silver Cloud',ACSASC,Acer saccharinum 'Silver Cloud',Acer saccharinum 'Silver Cloud',25,392,#BD0FB1,#CD51C4,Autres,#8a8a84,#9a9a92
+Amelanchier laevis ''Snowflakes'',AMLASN,Amelanchier Snowflakes,Snowflakes Serviceberry,25,393,#9E392E,#EE432F,Autres,#8a8a84,#9a9a92
+Cornus,CN,Cornouiller,Dogwood,25,394,#CDAA1D,#DAC262,Autres,#8a8a84,#9a9a92
+Magnolia x soulangiana,MGSO,Magnolia de Soulange,Saucer Magnolia,25,395,#3E5ADA,#7D90E8,Autres,#8a8a84,#9a9a92
+Malus x 'Almey',MAXXAL,Pommetier Almey,Almey Crab Apple,25,396,#A61DCD,#BF62DA,Autres,#8a8a84,#9a9a92
+Pinus banksiana,PNBA,Pin gris,Jack Pine,25,397,#367CE2,#83AAE2,Autres,#8a8a84,#9a9a92
+Prunus domestica 'Mont-Royal',PRDOMR,Prunier 'Mont-Royal',European Plum Montr-Royal,25,398,#B6355A,#F04C7B,Autres,#8a8a84,#9a9a92
+Tilia x europea 'Euchlora',TIEREC,Tilia x europea 'Euchlora',Tilia x europea 'Euchlora',25,399,#2B90EE,#88B4DD,Autres,#8a8a84,#9a9a92
+Acer rubrum Supersonic,ACRUSU,Érable rouge Supersonic,Supersonic Red Maple,24,400,#CDAD1D,#DAC462,Autres,#8a8a84,#9a9a92
+Malus 'Adams',MAXXAA,Pommetier 'Adams',Adams crabapple,24,401,#CB4DAE,#F471D5,Autres,#8a8a84,#9a9a92
+Malus x 'Liset',MAXXLI,Malus x 'Liset',Malus x 'Liset',24,402,#F0425B,#D87986,Autres,#8a8a84,#9a9a92
+Quercus x b. Midwest (Prarie Stature TM),QUBMMI,chêne Prairie Stature,Prairie Stature  Oak,24,403,#470FBD,#7951CD,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Autumn Flame',ACRUAF,Acer rubrum 'Autumn Flame',Acer rubrum 'Autumn Flame',23,404,#2BEEDB,#88DDD4,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Pyramidal',ACRUPY,Acer rubrum Pyramidal,Acer rubrum Pyramidal,23,405,#4C4FE6,#7374DE,Autres,#8a8a84,#9a9a92
+Catalpa speciosa Heartland (Hiawatha 2),CTSPHE,Catalpa Heartland,Heartland Catalpa,23,406,#DE5498,#E56CA7,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Harlequin',FRPEHA,Frêne de Pennsylvanie Harlequin,Harlequin Red Ash,23,407,#C526C5,#E25AE2,Autres,#8a8a84,#9a9a92
+Maackia amurensis 'Starburst',MCAMST,Maackia Starburst,Starburst Amur Maackia,23,408,#8B3EDA,#B17DE8,Autres,#8a8a84,#9a9a92
+Magnolia x 'Galaxy',MGXXGA,Magnolia 'Galaxy',Magnolia 'Galaxy',23,409,#4CBBE6,#73C0DE,Autres,#8a8a84,#9a9a92
+Malus x 'Strathmore',MAXXST,Pommetier Strathmore,Strathmore Crab Apple,23,410,#C4DA3E,#D9E87D,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Dawyck Purple',FASYDP,Fagus sylvatica 'Dawyck Purple',Fagus sylvatica 'Dawyck Purple',22,411,#5498DE,#6CA8E5,Autres,#8a8a84,#9a9a92
+Ulmus glabra 'Camperdownii',ULGLCA,Orme parasol,Camperdown Elm,22,412,#BE54DE,#C96CE5,Autres,#8a8a84,#9a9a92
+Ulmus x hollandica 'Groeneveld',ULHOGR,Orme Groeneveld,Groeneveld Elm,22,413,#4CC3E6,#73C6DE,Autres,#8a8a84,#9a9a92
+Carpinus caroliniana ''Firespire'',CACAFS,Charme de caroline ''Firespire'',Firespire American Hornbeam,21,414,#DA3E56,#E87D8E,Autres,#8a8a84,#9a9a92
+Malus x  'Jeflite' (Starlite TM),MAXXJF,Pommetier 'Jeflite',Starlite Flowering crabapple,21,415,#55E64C,#79DE73,Autres,#8a8a84,#9a9a92
+Prunus avium 'Lapins',PRAVLA,Cerisier Lapins,Lapins Cherrry,21,416,#B66635,#F08A4C,Autres,#8a8a84,#9a9a92
+Fraxinus nigra 'Fall Gold',FRNIFG,Frêne noir Fall Gold,Fall Gold Black Ash,20,417,#0FB5BD,#51C7CD,Autres,#8a8a84,#9a9a92
+Magnolia x Yellow Bird,MGXYB,Magnolia Yellow Bird,Magnolia Yellow Bird,20,418,#9C12D9,#B369D3,Autres,#8a8a84,#9a9a92
+Robinia,RO,Robinier,Locust,20,419,#1214D9,#696AD3,Autres,#8a8a84,#9a9a92
+Ulmus rubra,ULRU,Orme rouge,Slippery Elm,20,420,#35B4B6,#4CEEF0,Autres,#8a8a84,#9a9a92
+Acer Miyabei,ACMI,Acer Miyabei,Acer Miyabei,19,421,#4DCB9B,#71F4C2,Autres,#8a8a84,#9a9a92
+Acer pensylvanicum,ACPE,Érable de Pennsylvanie,Striped Maple,19,422,#862E9E,#C42FEE,Autres,#8a8a84,#9a9a92
+Acer x Freemanii 'Bailston' (MATADOR),ACFRBA,Érable Freemanii MATADOR,Freemanii Maple MATADOR,19,423,#C8F042,#C2D879,Autres,#8a8a84,#9a9a92
+Cercidiphyllum japonicum 'Red Fox',CDJARF,arbre de Katsura Red Fox,Red Fox Katsura tree,19,424,#2BEED7,#88DDD3,Autres,#8a8a84,#9a9a92
+Corylus,CO,Noisetier,Hazel,19,425,#CB4D57,#F4717B,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Prairie Silk',GLTRPS,Gleditsia triacanthos Prairie Silk,Gleditsia triacanthos Prairie Silk,19,426,#58CB4D,#7DF471,Autres,#8a8a84,#9a9a92
+Malus 'Royal Splendor',MAXXRL,Malus 'Royal Splendor',Malus 'Royal Splendor',19,427,#4E0FBD,#7E51CD,Autres,#8a8a84,#9a9a92
+Prunus cerasus ''Evans'',PRCAEV,Cerisier acide 'Evans',Evans Cherry plum,19,428,#9E332E,#EE382F,Autres,#8a8a84,#9a9a92
+Pyrus communis ''Beauté Flamande',PYCOBF,Poirier Beauté Flamande,Beaute Flamande Pear,19,429,#85CD1D,#A9DA62,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Spiralis',THOCSP,Thuya occidental Spiralis,Spiralis Arborvitae,19,430,#CA2BEE,#CD88DD,Autres,#8a8a84,#9a9a92
+Prunus maakii 'Jefree' (Goldrush TM),PRMAJE,Prunus maakii 'Jefree',Prunus maakii 'Jefree',18,431,#49BD0F,#7ACD51,Autres,#8a8a84,#9a9a92
+Acer griseum,ACGR,Acer griseum,Acer griseum,17,432,#88D912,#A8D369,Autres,#8a8a84,#9a9a92
+Celtis occidentalis Prairie Pride,CEOCPP,micocoulier Prairie Pride,Prairie Pride common Hackberry,17,433,#26C55C,#5AE289,Autres,#8a8a84,#9a9a92
+Eucommia ulmoides,EUUL,Arbre à gomme,Hardy Rubber Tree,17,434,#CB4DAB,#F471D2,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Dawyck Gold',FASYDG,Fagus sylvatica 'Dawyck Gold',Fagus sylvatica 'Dawyck Gold',17,435,#2E9E38,#2FEE40,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Fairview',GLTRFA,Fèvier inerme Fairview,Fairview Honey-Locust,17,436,#265BC5,#5A88E2,Autres,#8a8a84,#9a9a92
+Prunus armeniaca 'Scout',PRARSC,Abricotier d'Arménie 'Scout',Apricot Scout,17,437,#BFE64C,#C3DE73,Autres,#8a8a84,#9a9a92
+Pseudostuga menziesii 'Glauca',PSMEGL,Sapin de Douglas bleu,Rocky Mountain Douglas Blue Fir,17,438,#B1CB4D,#D9F471,Autres,#8a8a84,#9a9a92
+Quercus ellipsoidalis,QUEL,Quercus ellipsoidalis,Quercus ellipsoidalis,17,439,#6454DE,#7A6CE5,Autres,#8a8a84,#9a9a92
+Rhamnus,RH,Nerprun,Buckthorn,17,440,#54A0DE,#6CAFE5,Autres,#8a8a84,#9a9a92
+Betula nigra 'Heritage' tiges multiples,BENIHT,Bouleau noir Heritage tiges multiples,Heritage multi-stem Black Birch,16,441,#A342F0,#AE79D8,Autres,#8a8a84,#9a9a92
+Ginkgo biloba Windover Gold,GIBIWG,Arbre aux quarante écus Windover Gold,Maidenhair Tree Windover Gold,16,442,#42BD0F,#76CD51,Autres,#8a8a84,#9a9a92
+Platanus x acerifolia ''Bloodgood'',PLACBL,Platane de Londres Bloodgood,Bloodgood London Planetree,16,443,#549EDE,#6CACE5,Autres,#8a8a84,#9a9a92
+Populus simonii 'Fastigiata',POSIFA,Peuplier de Simon fastigié,Pyramidal Simon Poplar,16,444,#739E2E,#A5EE2F,Autres,#8a8a84,#9a9a92
+Taxus cuspidata 'Capitata',TACUCA,Taxus cuspidata Capitata,Taxus cuspidata Capitata,16,445,#61D1C1,#5FF2DD,Autres,#8a8a84,#9a9a92
+Tilia mongolica,TIMO,Tilleul de Mongolie,Mongolian Linden,16,446,#4263F0,#798AD8,Autres,#8a8a84,#9a9a92
+Ulmus davidiana 'Greenstone'' (TM),ULDAGR,Orme Greenstone,Greenstone elm,16,447,#2E779E,#2FABEE,Autres,#8a8a84,#9a9a92
+Asimina triloba,ASTR,Asiminier trilobé,Paw paw,15,448,#BEDA3E,#D5E87D,Autres,#8a8a84,#9a9a92
+Betula pendula 'Fastigiata',BEPEFA,Betula pendula 'Fastigiata',Betula pendula 'Fastigiata',15,449,#562BEE,#9B88DD,Autres,#8a8a84,#9a9a92
+Juglans ailantifolia var. cordiformis,JUAI,Juglans ailantifolia var. cordiformis,Juglans ailantifolia var. cordiformis,15,450,#ADCB4D,#D4F471,Autres,#8a8a84,#9a9a92
+Malus x 'Indian Summer',MAXXIS,Pommetier Indian Summer,Indian Summer Crab Apple,15,451,#0FB9BD,#51CACD,Autres,#8a8a84,#9a9a92
+Malus x 'Jefgreen' (Emerald Spire TM),MAXXJG,Pommetier Emerald Spire,Emerals Spire Crabapple,15,452,#9E802E,#EEBB2F,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia 'Cardinal',SOAUCA,Sorbus aucuparia Cardinal,Sorbus aucuparia Cardinal,15,453,#54DE63,#6CE579,Autres,#8a8a84,#9a9a92
+Aesculus flava ''Yellow Buckeye'',AEFLYB,Maronnier à fleurs jaunes,Yellow buckeye,14,454,#54DECA,#6CE5D3,Autres,#8a8a84,#9a9a92
+Amelanchier c. 'Rainbow Pillar' (Glenn Form),AMCARP,Amelanchier c. 'Rainbow Pillar' (Glenn Form),Amelanchier c. 'Rainbow Pillar' (Glenn Form),14,455,#55DA3E,#8DE87D,Autres,#8a8a84,#9a9a92
+Cercis canadensis 'Forest Pansy',CICAFP,Gainier du Canada 'Forest Pansy','Forest Pansy' Redbud,14,456,#21AB22,#40DD42,Autres,#8a8a84,#9a9a92
+Chamaecyparis nootkatensis,CHNO,Chamaecyparis jaune,Nootka False Cypress,14,457,#9EB319,#C2D449,Autres,#8a8a84,#9a9a92
+Malus x 'Pink Spires',MAXXPS,Pommetier Pink Spires,Pink Spires Crab Apple,14,458,#B66835,#F08D4C,Autres,#8a8a84,#9a9a92
+Picea punges glauca Colorado,PIPUCO,Épinette bleu du Colorado,Colorado blue spruce,14,459,#CDA31D,#DABE62,Autres,#8a8a84,#9a9a92
+Tilia cordata Summer Sprite,TICOSS,Tilleul européen Summer Sprite,Littleleaf Linden Summer Sprite,14,460,#DE6254,#E5786C,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Alberta Park',ACPLAP,Érable de Norvège Alberta Park,Alberta Park Norway Maple,13,461,#DE6F54,#E5846C,Autres,#8a8a84,#9a9a92
+Acer pseudoplatanus 'Regal Petticoat',ACPSRP,Érable sycomore Regal Petticoat,Regal Petticoat maple,13,462,#B14CE6,#B973DE,Autres,#8a8a84,#9a9a92
+Elaeagnus angustifolia 'Velvet Touch',ELANVT,Elaeagnus angustifolia 'Velvet Touch',Elaeagnus angustifolia 'Velvet Touch',13,463,#83EE2B,#AFDD88,Autres,#8a8a84,#9a9a92
+Malus x 'Winter Gold',MAXXWG,Pommetier Winter Gold,Winter Gold Crab Apple,13,464,#46BD0F,#78CD51,Autres,#8a8a84,#9a9a92
+Populus tremuloides 'Erecta',POTRER,Peuplier faux-tremble Erecta,Erecta Trembling Aspen,13,465,#7961D1,#7E5FF2,Autres,#8a8a84,#9a9a92
+Prunus avium 'Bing',PRAVBI,Cerisier 'Bing',Bing cherry,13,466,#12D997,#69D3B0,Autres,#8a8a84,#9a9a92
+Salix x 'Prairie Cascade',SAXXPC,Saule Prairie Cascade,Prairie Cascade Willow,13,467,#1299D9,#69B1D3,Autres,#8a8a84,#9a9a92
+Sorbus thuringiaca 'Fastigiata',SOTHFA,Sorbier à feuilles de chêne fastigié,Fastigiata Oakleaf Mountain Ash,13,468,#B66335,#F0874C,Autres,#8a8a84,#9a9a92
+Betula populifolia 'Whitespire',BEPOWH,Bouleau gris Whitespire,Whitespire Senior Birch,12,469,#19B362,#49D48B,Autres,#8a8a84,#9a9a92
+Chamaecyparis nootkatensis 'Aurea',CHNOAU,Faux cyprès de Nootka,Aurea Alaska cedar,12,470,#C854DE,#D26CE5,Autres,#8a8a84,#9a9a92
+Fagus sylvatica Riversii,FASYRI,Hetre européen Riversii,European beech Rversii,12,471,#1B12D9,#6E69D3,Autres,#8a8a84,#9a9a92
+Gymnocladus dioicus 'Stately Manor',GYDISM,Chicot du Canada 'Stately Manor',Stately Manor Kentucky Coffeetree,12,472,#6A35B6,#8F4CF0,Autres,#8a8a84,#9a9a92
+Larix kaempferi 'Blue Rabbit',LAKABR,Larix kaempferi 'Blue Rabbit',Larix kaempferi 'Blue Rabbit',12,473,#CB964D,#F4BC71,Autres,#8a8a84,#9a9a92
+Parrotia persica,PAPE,Arbre de fer de Perse,Persian Ironwood,12,474,#1DCD2F,#62DA6E,Autres,#8a8a84,#9a9a92
+Pinus mugo,PNMU,Pin mugo,Mugo Pine,12,475,#6654DE,#7C6CE5,Autres,#8a8a84,#9a9a92
+Prunus maakii 'Jefspur' (Goldspur TM),PRMAJF,Prunus maakii 'Jefspur',Prunus maakii 'Jefspur',12,476,#9E2E74,#EE2FA7,Autres,#8a8a84,#9a9a92
+Prunus pensylvanica,PRPN,Cerisier de Pennsylvanie,Wild Red Cherry,12,477,#B635B0,#F04CEA,Autres,#8a8a84,#9a9a92
+Prunus salicina 'Burbank',PRSLBU,Prunier japonais 'Burbank',Burbank Japanese plum,12,478,#E2367E,#E283AB,Autres,#8a8a84,#9a9a92
+Pyrus multifruits 4 dans 1,PYMU04,Poirier multifruits 4 dans 1,4-1 pear,12,479,#2E759E,#2FA8EE,Autres,#8a8a84,#9a9a92
+Tilia x flavescens ''Glenleven',TIFLGL,Tilleul à feuilles moyennes Glenleven,Glenleven Linden,12,480,#B4CB4D,#DBF471,Autres,#8a8a84,#9a9a92
+Acer ginnala 'Embers',ACGIEM,Acer ginnala Embers,Acer ginnala Embers,11,481,#DECC54,#E5D56C,Autres,#8a8a84,#9a9a92
+Acer negundo 'Baron',ACNEBA,Acer negundo Baron,Acer negundo Baron,11,482,#DA913E,#E8B67D,Autres,#8a8a84,#9a9a92
+Alnus,AL,Aulne,Alder,11,483,#4D55CB,#717AF4,Autres,#8a8a84,#9a9a92
+Alnus hirsuta Prairie Horizon,ALHIPH,aulne de Manchourie,Manchurian alder,11,484,#0FB2BD,#51C5CD,Autres,#8a8a84,#9a9a92
+Carpinus betulus 'Frans Fontaine',CABEFF,Charme européen 'Frans Fontaine',Frans Fontaine Hornbeam,11,485,#D9A112,#D3B669,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Moraine',GLTRMO,Févier Moraine,Moraine Honey-Locust,11,486,#1DCDA8,#62DAC1,Autres,#8a8a84,#9a9a92
+Magnolia x loebneri 'Leonard Messel',MGLOLM,Magnolia Leonard Messel,Leonard Messel Magnolia,11,487,#CD311D,#DA6F62,Autres,#8a8a84,#9a9a92
+Malus 'Red Baron',MAXXRN,Pommetier 'Red Baron',Red Baron Crabapple,11,488,#AB7B21,#DDA740,Autres,#8a8a84,#9a9a92
+Malus x ''Jaune Transparente'',MAXXJT,Pommier ''Jaune transparente'',Yellow transparent Apple,11,489,#C5265D,#E25A8A,Autres,#8a8a84,#9a9a92
+Pinus flexilis,PNFL,Pin flexible,Limber Pine,11,490,#2E9E7F,#2FEEB9,Autres,#8a8a84,#9a9a92
+Prunus cerasifera,PRCE,Cerisier aigre,Sour Cherry,11,491,#E2D536,#E2DA83,Autres,#8a8a84,#9a9a92
+Prunus domestica,PRDO,Prunier domestique,Common Plum,11,492,#E6A64C,#DEB173,Autres,#8a8a84,#9a9a92
+Prunus nigra,PRNI,Prunier noir,Canada Plum,11,493,#9942F0,#A879D8,Autres,#8a8a84,#9a9a92
+Taxodium distichum,TXDI,Cyprès chauve,Common bald cypres,11,494,#1942B3,#496ED4,Autres,#8a8a84,#9a9a92
+Tilia americana 'Fastigiata',TIAMFA,Tilia americana Fastigiata,Tilia americana Fastigiata,11,495,#E64C5C,#DE737E,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Scanlon',ACRUSC,érable rouge fastigié,Scanlon red maple,10,496,#35A8B6,#4CDEF0,Autres,#8a8a84,#9a9a92
+Alnus x spaethii 'Spaeth',ALSPSP,Aulne de spaeth,Spaeth's alder,10,497,#54DE6D,#6CE582,Autres,#8a8a84,#9a9a92
+Malux x ''Thunder Bay'',MAXXTB,pommetier Thunder Bay,Thunder Bay crabapple,10,498,#E2367B,#E283A9,Autres,#8a8a84,#9a9a92
+Platanus,PL,Platane,Sycamore,10,499,#4B0FBD,#7B51CD,Autres,#8a8a84,#9a9a92
+Prunus maackii,PRMA,Ceriser de l'amur,Amur Chokecherry,10,500,#E26136,#E29B83,Autres,#8a8a84,#9a9a92
+Prunus persica,PRPE,Pêcher,Peach Tree,10,501,#1DCDA1,#62DABC,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Cleveland',ACPLCL,Érable de Norvège Cleveland,Cleveland Norway Maple,9,502,#4253F0,#7982D8,Autres,#8a8a84,#9a9a92
+Acer rubrum ''Autumn Spire'',ACRUAS,érable rouge Autumn Spire,Autumn Spire red maple,9,503,#D92012,#D37069,Autres,#8a8a84,#9a9a92
+Amelanchier 'Autumn Brillance tiges multiples,AMGRAT,Amelanchier 'Autumn Brillance tiges multiples,multi-stem Autumn Brillance Serviceberry,9,504,#618ED1,#5F99F2,Autres,#8a8a84,#9a9a92
+Betula alleghaniensis tiges multiples,BEAT,Bouleau jaune tiges multiples,Yellow birch multi-stem,9,505,#2321AB,#4340DD,Autres,#8a8a84,#9a9a92
+Betula utilis var. jacquemontii,BEUTJA,Bouleau de l'Himalaya,Whitebarked Himalayan Birch,9,506,#DE6D54,#E5816C,Autres,#8a8a84,#9a9a92
+Chamaecyparis nootkatensis Glauca,CHNOGL,Faux cyprès de Nootka Glauca,Blue Nootka Falsecypress,9,507,#42F0A2,#79D8AD,Autres,#8a8a84,#9a9a92
+Cladastris lutea,CLLU,Virgilier à bois jaune,American Yellow-wood,9,508,#59C526,#86E25A,Autres,#8a8a84,#9a9a92
+Elaeagnus,EL,Chalef,Russian Olive,9,509,#CD341D,#DA7262,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Dawyck Green',FASYDA,Fagus sylvatica 'Dawyck Green',Dawyck Green Beech,9,510,#B31939,#D44966,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior,FREX,Frêne d'Europe,European Ash,9,511,#53E64C,#77DE73,Autres,#8a8a84,#9a9a92
+Malus x 'Adirondack',MAXXAD,Malus x Adirondack,Malus x Adirondack,9,512,#ADB635,#E6F04C,Autres,#8a8a84,#9a9a92
+Malus x 'Purple Wave',MAXXPW,Malus x 'Purple Wave',Malus x 'Purple Wave',9,513,#EE2B88,#DD88B1,Autres,#8a8a84,#9a9a92
+Malus x 'Red Jewel',MAXXRE,Pommetier Red Jewel,Red Jewel Crabapple,9,514,#7A21AB,#A640DD,Autres,#8a8a84,#9a9a92
+Malus x 'Red Splendor',MAXXRP,Malus x 'Red Splendor',Malus x 'Red Splendor',9,515,#0FBD4D,#51CD7D,Autres,#8a8a84,#9a9a92
+Malus x 'Sugar Tyme',MAXXSG,Malus Sugar Tyme,Malus Sugar Tyme,9,516,#D12BEE,#D088DD,Autres,#8a8a84,#9a9a92
+Picea pungens glauca San Isabel,PIPUSI,Épinette bleu du Colorado San Isabel,Picea pungens galuca San Isabel,9,517,#35AFB6,#4CE8F0,Autres,#8a8a84,#9a9a92
+Pyrus communis ''Bartlett'',PYCOBA,Poirier Bartlett,Bartlett Pear,9,518,#355BB6,#4C7DF0,Autres,#8a8a84,#9a9a92
+Salix pentendra ''Prairie Reflexion'',SAPEPR,Saule odorant Prairie Reflexion,Salix Reflexion Laurel Leaf Willow,9,519,#7761D1,#7C5FF2,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia 'Fastigiata',SOAUFA,Sorbier des oiseaux fastigié,Upright European Mountain Ash,9,520,#F04262,#D8798A,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Morden',TICOMO,Tilleul à petites feuilles Morden,Morden Littleleaf Linden,9,521,#2186AB,#40B3DD,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Norland',TICONO,Tilleul à petites feuilles Norland,Norland Littleleaf Linden,9,522,#BDB90F,#CDCA51,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Autumn Radiance',ACRUAA,érable rouge Autumn Radiance,Autumn Radiance Red maple,8,523,#CB9A4D,#F4C171,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Commemoration'',ACSCCO,Érable à sucre Commemoration,Commemoration Sugar Maple,8,524,#4CB5E6,#73BCDE,Autres,#8a8a84,#9a9a92
+Aesculus x carnea,AECA,Aesculus x carnea,Aesculus x carnea,8,525,#AC1DCD,#C462DA,Autres,#8a8a84,#9a9a92
+Amelanchier laevis 'Lustre',AMLALU,Amélanchier du Canada 'Lustre',Lustre Allegheny serviceberry,8,526,#97DE54,#A6E56C,Autres,#8a8a84,#9a9a92
+Betula pendula 'Tristis',BEPETR,Betula pendula 'Tristis',Betula pendula 'Tristis',8,527,#E23674,#E283A5,Autres,#8a8a84,#9a9a92
+Fagus,FA,Hêtre,Beech,8,528,#36E2DC,#83E2DE,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Golden Globe',GIBIGG,Arbre aux quarante écus Golden Globe,Golden Globe ginkgo tree,8,529,#C1DA3E,#D7E87D,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'True Shade',GLTRTS,fèvier True Shade,True Shade honeylocust,8,530,#4259F0,#7985D8,Autres,#8a8a84,#9a9a92
+Magnolia rustica 'Rubra',MGRURU,Magnolia rustica Rubra,Magnolia rustica Rubra,8,531,#6954DE,#7E6CE5,Autres,#8a8a84,#9a9a92
+Malus x domestica 'Freedom',MAXXFR,Malus x domestica 'Freedom',Malus x domestica 'Freedom',8,532,#5BCB4D,#7FF471,Autres,#8a8a84,#9a9a92
+Pinus mugo 'Tannenbaum',PNMUTA,Pinus mugo 'Tannenbaum',Pinus mugo 'Tannenbaum',8,533,#5DF042,#87D879,Autres,#8a8a84,#9a9a92
+Pinus ponderosa var. scopulorum,PNPOSC,Pin Ponderosa,Ponderosa Pine,8,534,#CD2E1D,#DA6D62,Autres,#8a8a84,#9a9a92
+Pinus strobus 'Fastigiata',PNSTFA,Pin blanc 'Fastigiata',Fastigiata Eastern White Pine,8,535,#CB4DB0,#F471D7,Autres,#8a8a84,#9a9a92
+Populus tremuloides 'Mountain Sentinel',POTRMS,Peuplier faux-tremble 'Mountain Sentinel','Mountain Sentinel' trembling poplar,8,536,#58E64C,#7BDE73,Autres,#8a8a84,#9a9a92
+Prunus cerasifera 'Newport',PRCENE,Prunus cerasifera 'Newport',Prunus cerasifera 'Newport',8,537,#7821AB,#A340DD,Autres,#8a8a84,#9a9a92
+Prunus padus 'Colorata',PRPACO,Cerisier à grappes Colorata,Colorata European Birdcherry,8,538,#E64C59,#DE737B,Autres,#8a8a84,#9a9a92
+Salix viminalis,SAVI,Saule des vanniers,Basket willow,8,539,#C52663,#E25A8F,Autres,#8a8a84,#9a9a92
+Sorbus xanthocarpa,SOXA,Sorbus xanthocarpa,Sorbus xanthocarpa,8,540,#291DCD,#6A62DA,Autres,#8a8a84,#9a9a92
+Tilia americana 'Duros' (True North TM),TIAMDU,Tilleul américain Duros (True North TM),True Shade American basswood,8,541,#61D176,#5FF27B,Autres,#8a8a84,#9a9a92
+Acer freemanii 'Sienna',ACFRSI,Acer freemanii 'Sienna',Acer freemanii 'Sienna',7,542,#3CBD0F,#71CD51,Autres,#8a8a84,#9a9a92
+Acer pseudoplatanus,ACPS,Érable sycamore,Sycamore Maple,7,543,#D1CB61,#F2EA5F,Autres,#8a8a84,#9a9a92
+Betula pendula 'Gracilis',BEPEGR,Bouleau pleureur à feuilles laciniées,Cut-leaf Weeping Birch,7,544,#56CB4D,#7BF471,Autres,#8a8a84,#9a9a92
+Crataegus laevigata 'Crimson Cloud',CGLACC,Crataegus laevigata 'Crimson Cloud',Crataegus laevigata 'Crimson Cloud',7,545,#6C54DE,#816CE5,Autres,#8a8a84,#9a9a92
+Crataegus x mordensis,CGMO,Aubépine mordensis,Hawthorn,7,546,#C4C526,#E1E25A,Autres,#8a8a84,#9a9a92
+Fraxinus nigra 'Northern Treasure',FRNINT,Frêne noir Northern Treasure,Northern Treasure Black Ash,7,547,#9E822E,#EEBF2F,Autres,#8a8a84,#9a9a92
+Heptacodium miconioides,HEMI,Heptacodium miconioides,Seven-son flower,7,548,#DA3E59,#E87D90,Autres,#8a8a84,#9a9a92
+Malus x 'Snowcloud',MAXXSN,Pommetier Snowcloud,Snowcloud Crab Apple,7,549,#12D916,#69D36B,Autres,#8a8a84,#9a9a92
+Picea mariana,PIMA,Épinette noire,Black Spruce,7,550,#D91412,#D36A69,Autres,#8a8a84,#9a9a92
+Pinus parvifolia 'Glauca',PNPAGL,Pin parviflora Glauca,Japanese White PIne,7,551,#35B666,#4CF08B,Autres,#8a8a84,#9a9a92
+Populus x canadensis 'Eugenii',POCAEU,Peuplier de Caroline Eugenii,Eugenii Carolina Poplar,7,552,#A21DCD,#BD62DA,Autres,#8a8a84,#9a9a92
+Prunus 'Carmine Jewel',PRXXCJ,Cerisier 'Carmine Jewel',Carmine Jewel cherry,7,553,#AB2182,#DD40AF,Autres,#8a8a84,#9a9a92
+Prunus 'cerisier multifruits 3-1,PRCR03,Cerisier multifruits 3-1,3-1 cherry,7,554,#0FBCBD,#51CCCD,Autres,#8a8a84,#9a9a92
+Prunus 'cerisier multifruits 4-1',PRCR04,cerisier multifruits 4-1,4-1 cherry,7,555,#9E7E2E,#EEB72F,Autres,#8a8a84,#9a9a92
+Prunus Américain Toka,PRAMTO,Prunier Americana Toka,Toka Plum,7,556,#5A19B3,#8449D4,Autres,#8a8a84,#9a9a92
+Tilia cordata 'De Groot',TICODG,Tilia cordata 'De Groot',Tilia cordata 'De Groot',7,557,#DA833E,#E8AC7D,Autres,#8a8a84,#9a9a92
+Acer platanoides 'Jade Glen',ACPLJG,Acer platanoides Jade Glen,Acer platanoides Jade Glen,6,558,#21AB81,#40DDAE,Autres,#8a8a84,#9a9a92
+Acer rubrum ''Burgundy Belle'',ACRUBB,Érable rouge ''Burgundy Belle'',Burgundy Bell red maple,6,559,#3551B6,#4C70F0,Autres,#8a8a84,#9a9a92
+Acer spicatum,ACSP,Érable à épis,Mountain Maple,6,560,#CB4DA9,#F471D0,Autres,#8a8a84,#9a9a92
+Crataegus phaenopyrum,CGPH,Aubépine Washington,Washington Hawthorn,6,561,#57F042,#84D879,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Cimmzam' (Cimmaron),FRPECI,Frêne de Pennsylvanie 'Cimmzam' (Cimmaron),Cimmzam (Cimmaron) Red Ash,6,562,#B9E64C,#BFDE73,Autres,#8a8a84,#9a9a92
+Fraxinus profunda,FRPR,Frêne pubescent,Pumpkin ash,6,563,#7D21AB,#A940DD,Autres,#8a8a84,#9a9a92
+Fraxinus quadrangulata,FRQU,Fraxinus quadrangulata,Fraxinus quadrangulata,6,564,#0FBD50,#51CD7F,Autres,#8a8a84,#9a9a92
+Juglans mandschurica,JUMA,Juglans mandschurica,Juglans mandschurica,6,565,#21AB7C,#40DDA8,Autres,#8a8a84,#9a9a92
+Magnolia acuminata x denudata 'Elizabeth',MGADEL,Magnolia Elizabeth,Magnolia Elizabeth,6,566,#BD0FB8,#CD51C9,Autres,#8a8a84,#9a9a92
+Malus domestica 'Courageous',MADOCO,Pommetier décoratif 'Courageous',Courageous Crabapple,6,567,#CD1D7F,#DA62A5,Autres,#8a8a84,#9a9a92
+Picea abies Rubra Spicata,PIABRS,Épinette de Norvège Rubra Spicata,Red Tipped Norway Spruce,6,568,#D1C561,#F2E25F,Autres,#8a8a84,#9a9a92
+Pinus sylvestris 'Fastigiata',PNSYFA,Pin sylvestre 'Fastigiata',pyramidal Scotch pine,6,569,#AB7921,#DDA440,Autres,#8a8a84,#9a9a92
+Populus x canadensis 'Erecta',POCAER,Populus x canadensis 'Erecta',Populus x canadensis 'Erecta',6,570,#B0B635,#E9F04C,Autres,#8a8a84,#9a9a92
+Populus x canadensis Heidehij,POCAHE,Populus x canadensis Heidehij,Populus x canadensis Heidehij,6,571,#4D5CCB,#7181F4,Autres,#8a8a84,#9a9a92
+Prunus domestica var. Italienne,PRDOIT,Prunier Italien,Italian Plum,6,572,#CE2BEE,#CF88DD,Autres,#8a8a84,#9a9a92
+Prunus multifruits 4 dans 1,PRMU04,Prunus multifruits 4 dans 1,Prunus multifruits 4 dans 1,6,573,#DEC254,#E5CC6C,Autres,#8a8a84,#9a9a92
+Prunus persica ''Frost'',PRPEFR,Pêcher ''Frost'',Frost Peach,6,574,#DA863E,#E8AE7D,Autres,#8a8a84,#9a9a92
+Prunus salicina 'Toka',PRSLTO,Prunier japonais 'Toka',Toka japanese plum,6,575,#BDBC0F,#CDCC51,Autres,#8a8a84,#9a9a92
+Prunus x 'Stella',PRXXST,Cerisier Stella,Stella Cherry,6,576,#6535B6,#894CF0,Autres,#8a8a84,#9a9a92
+Ptelea trifoliata,PETR,Ptéléa trifolié,Three-leaved Hop-tree,6,577,#BD490F,#CD7A51,Autres,#8a8a84,#9a9a92
+Robinia pseudoacacia 'Frisia',ROPSFR,Robinier faux-acacia Frisia,Frisia Black Locust,6,578,#CD1D86,#DA62A9,Autres,#8a8a84,#9a9a92
+Sorbus aucuparia 'Rosedale',SOAURO,Sorbier des oiseaux Rosedale,Rosedale European Mountain Ash,6,579,#6196D1,#5FA4F2,Autres,#8a8a84,#9a9a92
+Syringa pekinensis,SYPE,Syringa pekinensis,Syringa pekinensis,6,580,#EE2B8F,#DD88B4,Autres,#8a8a84,#9a9a92
+Thuya occidentalis 'Brandon Gold',THOCBG,cèdre Brandon Gold,Brandon Gold cedar,6,581,#E25E36,#E29983,Autres,#8a8a84,#9a9a92
+Thuya occidentalis Degroot's Spire,THOCDS,thuyas,northern whitecedar,6,582,#4CBD0F,#7CCD51,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Endowment',ACSCEN,érable à sucre  Endowment,Endowment Sugar Maple,5,583,#C1C526,#DFE25A,Autres,#8a8a84,#9a9a92
+Betula pendula 'Youngii',BEPEYO,Bouleau pleureur de Young,Young's Weeping Birch,5,584,#217BAB,#40A7DD,Autres,#8a8a84,#9a9a92
+Caragana arborescens,CCAR,Caraganier de Sibérie,Siberian Pea Tree,5,585,#4256F0,#7983D8,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Purpurea Pendula',FASYPP,Hêtre européen Purpurea Pendula,Purpurea Pendula European Beech,5,586,#C861D1,#E65FF2,Autres,#8a8a84,#9a9a92
+Magnolia x 'Sunburst',MGXXSU,Magnolia 'Sunburst',Magnolia 'Sunburst',5,587,#C5C326,#E2E05A,Autres,#8a8a84,#9a9a92
+Malus x Brandywine®,MAXXBR,Pommetier Brandywine®,Brandywine® Crab Apple,5,588,#19A3B3,#49C6D4,Autres,#8a8a84,#9a9a92
+Malus x Goodland,MAXXGO,Pommier Goodland,Goodland Apple,5,589,#E64C56,#DE7379,Autres,#8a8a84,#9a9a92
+Malus x domestica 'Belmac',MAXXBE,Malus x domestica 'Belmac',Malus x domestica 'Belmac',5,590,#4F2BEE,#9888DD,Autres,#8a8a84,#9a9a92
+Prunus armeniaca 'Harcot',PRARHA,Abricotier 'Harcot',Harcot apricot tree,5,591,#F0425E,#D87988,Autres,#8a8a84,#9a9a92
+Prunus cerasus 'Meteor',PRCAME,Cerisier 'Météor',Meteor cherry,5,592,#F042D2,#D879C8,Autres,#8a8a84,#9a9a92
+Prunus fructicosa xcerasus 'Crimson Passion',PRFCCP,Cerisier SK 'Crimson Passion',Dwarf Cherry 'Crimson Passion',5,593,#4DCB92,#71F4B8,Autres,#8a8a84,#9a9a92
+Pyrus ussuriensis Golden Spice,PYUSGS,Poirier rustique `Golden Spice`,Golden Spice Pear,5,594,#853EDA,#AD7DE8,Autres,#8a8a84,#9a9a92
+Quercus x macdanielii 'Clemons' (Heritage TM),QUMCCL,Chêne Heritage,Heritage English Oak,5,595,#2E9E31,#2FEE36,Autres,#8a8a84,#9a9a92
+Sassafras albidum,SSAL,Laurier des Iroquois,Common sassafras,5,596,#3EDA84,#7DE8AD,Autres,#8a8a84,#9a9a92
+Thuja occidentalis 'Sunkist',THOCSU,Thuya occidental Sunkist,Sunkist American Arborvitae,5,597,#4DCB8F,#71F4B6,Autres,#8a8a84,#9a9a92
+Zelkova serrata ''Village Green'',ZESEVG,Zelkova du Japon ''Village Green'',''Village Green'' Japanese Zelkova,5,598,#3E63DA,#7D96E8,Autres,#8a8a84,#9a9a92
+Acer tatricum 'Rubrum',ACTARU,Érable de Tartarie,Red Tatarian Maple,4,599,#540FBD,#8251CD,Autres,#8a8a84,#9a9a92
+Acer truncatum,ACTR,Érable truncatum,Truncatum Maple,4,600,#2E9E3A,#2FEE44,Autres,#8a8a84,#9a9a92
+Betula nigra 'Dickinson' (Northern Tribute),BENIDI,Bouleau noir 'Dickinson' (Northern Tribute),'Dickinson' River Birch (Northern Tribute),4,601,#199DB3,#49C1D4,Autres,#8a8a84,#9a9a92
+Betula papirifera 'Renaissance Oasis',BEPARO,Bouleau à papier Renaissance Oasis,Renaissance Oasis paper birch,4,602,#2658C5,#5A86E2,Autres,#8a8a84,#9a9a92
+Carpinus carolina Rising Fire,CACARF,Charme de Caroline Rising Fire,Rising Fire American Hornbeam,4,603,#6C35B6,#924CF0,Autres,#8a8a84,#9a9a92
+Crataegus canadensis,CGCA,Crataegus canadensis,Crataegus canadensis,4,604,#BD0FB4,#CD51C7,Autres,#8a8a84,#9a9a92
+Fraxinus angustifolia ssp. oxycarpa,FRANOX,Fraxinus angustifolia ssp. oxycarpa,Fraxinus angustifolia ssp. oxycarpa,4,605,#B3199F,#D449C3,Autres,#8a8a84,#9a9a92
+Fraxinus chinensis ssp. rynchophylla,FRCHRH,Fraxinus chinensis ssp. rynchophylla,Fraxinus chinensis ssp. rynchophylla,4,606,#7D61D1,#845FF2,Autres,#8a8a84,#9a9a92
+Fraxinus mandshurica,FRMN,Fraxinus mandshurica,Fraxinus mandshurica,4,607,#77E236,#A7E283,Autres,#8a8a84,#9a9a92
+Juniperus chinensis ''Fairview'',JNCHFA,Génévrier de Chine 'Fairview',Fairview Juniper,4,608,#DE549A,#E56CA9,Autres,#8a8a84,#9a9a92
+Malus 'Pink Perfection',MAXXPP,Malus 'Pink Perfection',Malus 'Pink Perfection',4,609,#36E2D9,#83E2DD,Autres,#8a8a84,#9a9a92
+Malus x 'Maypole',MAXXMY,Pommetier Maypole Colonade,Columnar apple MAypole,4,610,#12D99B,#69D3B2,Autres,#8a8a84,#9a9a92
+Malus x 'Selkirk',MAXXSK,Malus Selkirk,Malus Selkirk,4,611,#5726C5,#855AE2,Autres,#8a8a84,#9a9a92
+Phellodendron,PH,Phellodendron,Cork Tree,4,612,#DA3E5C,#E87D92,Autres,#8a8a84,#9a9a92
+Phellodendron amurensis Longenecker,PHAMLO,Phellodendron de l'amur Longenecker,Amur Corktree Longenecker,4,613,#BD4C0F,#CD7C51,Autres,#8a8a84,#9a9a92
+Pinus koraiensis,PNKO,Pin blanc de Corée,Korean Pine,4,614,#B35B19,#D48549,Autres,#8a8a84,#9a9a92
+Prunus cerasus,PRCA,Cerisier acide,Cherry plum,4,615,#0FBD4A,#51CD7B,Autres,#8a8a84,#9a9a92
+Prunus multifruits 3 dans 1,PRMU03,Prunier multifruits 3 dans 1,3-1 plum,4,616,#19A6B3,#49C9D4,Autres,#8a8a84,#9a9a92
+Prunus padus 'Commutata',PRPACM,Cerisier à grappes Commutata,Commutata Bird Cherry,4,617,#2661C5,#5A8DE2,Autres,#8a8a84,#9a9a92
+Prunus padus 'Skinner's Red',PRPASR,Prunus padus 'Skinner's Red',Prunus padus 'Skinner's Red',4,618,#97D912,#B0D369,Autres,#8a8a84,#9a9a92
+Prunus persica 'Reliance',PRPERE,Pêcher 'Reliance',Peach 'Reliance',4,619,#5DCB4D,#82F471,Autres,#8a8a84,#9a9a92
+Pyrus communis 'Patten',PYCOPA,Patten European Pear,Poirier Patten,4,620,#2BEECC,#88DDCE,Autres,#8a8a84,#9a9a92
+Pyrus communis 'Savignac',PYCOSA,Pyrus communis 'Savignac',Pyrus communis 'Savignac',4,621,#CB914D,#F4B771,Autres,#8a8a84,#9a9a92
+Tilia x flavescens Dropmore,TIFLDR,Tilleul à feuilles moyennes Dropmore,Dropmore Linden,4,622,#D036E2,#D883E2,Autres,#8a8a84,#9a9a92
+Ulmus thomasii,ULTH,Orme de Thomas,Rock Elm,4,623,#CD9D1D,#DAB962,Autres,#8a8a84,#9a9a92
+Abies koreana,ABKO,sapin de Corée,Korean fir,3,624,#1D77CD,#629FDA,Autres,#8a8a84,#9a9a92
+Acer grandidentatum ' Rocky Mountain Glow',ACGARM,Acer grandidentatum ' Rocky Mountain Glow',Acer grandidentatum ' Rocky Mountain Glow',3,625,#2655C5,#5A83E2,Autres,#8a8a84,#9a9a92
+Acer negundo 'Sensation',ACNESE,érable Sensation,Sensation Boxelder,3,626,#54CB4D,#78F471,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Unity',ACSCUN,Acer saccharum Unity,Acer saccharum Unity,3,627,#7FEE2B,#ADDD88,Autres,#8a8a84,#9a9a92
+Amelanchier laevis 'Snowcloud',AMLASC,Amélanchier glabre 'Snowcloud',Snowcloud serviceberry,3,628,#61D1CA,#5FF2E8,Autres,#8a8a84,#9a9a92
+Betula papyrifera 'Varen' (Prairie Dream TM),BEPAVA,Bouleau à papier Prairie Dream,Prairie Dream Paper Birch,3,629,#1DCDAB,#62DAC3,Autres,#8a8a84,#9a9a92
+Celtis,CE,Micocoulier,Hackberry,3,630,#42CAF0,#79C3D8,Autres,#8a8a84,#9a9a92
+Cercidiphyllum,CD,Cercidiphyllum,Katsura Tree,3,631,#3554B6,#4C73F0,Autres,#8a8a84,#9a9a92
+Cercidiphyllym japonicum tiges multiples,CDJT,Cercidiphyllym du Japon tiges multiples,multi-stem Katsura tree,3,632,#CB984D,#F4BF71,Autres,#8a8a84,#9a9a92
+Chionanthus virginicus,CUVI,Arbre de neige,White Fringetree,3,633,#4C52E6,#7376DE,Autres,#8a8a84,#9a9a92
+Crataegus x oxyacantha 'Paul Scarlet',CGOXPS,Crataegus x oxyacantha Paul Scarlet,Crataegus x oxyacantha Paul Scarlet,3,634,#A012D9,#B569D3,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Diversifolia',FREXDI,Frêne d'Europe 'Diversifolia',European ash excelsior Diversifolia,3,635,#128ED9,#69ABD3,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Aucubifolia',FRPEAU,Frêne rouge 'Acubifolia',Red ash 'Acubifolia',3,636,#6190D1,#5F9CF2,Autres,#8a8a84,#9a9a92
+Ginkgo biloba f. Goldspire,GIBIGO,Arbre aux 40 écus Goldspire,Ginkgo Goldspire,3,637,#9E2E70,#EE2F9F,Autres,#8a8a84,#9a9a92
+Gleditsia triacanthos 'Northern Sentinel',GLTRNS,Fevier d'Amérique 'Northern Sentinel',Northern Sentinel Honeylocust,3,638,#522BEE,#9A88DD,Autres,#8a8a84,#9a9a92
+Juniperus chinensis 'Mountbatten',JNCHMO,Génévrier de Chine 'Mountbatten',Mountbatten juniper,3,639,#42CDF0,#79C5D8,Autres,#8a8a84,#9a9a92
+Larix decidua 'Pendula',LADEPE,Mélèze d'Europe pleureur,Weeping European Larch,3,640,#DA3EC2,#E87DD7,Autres,#8a8a84,#9a9a92
+Maackia,MC,Maackie,Maackia,3,641,#D91290,#D369AD,Autres,#8a8a84,#9a9a92
+Magnolia x 'Daybreak',MGXXDA,Magnolia 'Daybreak',Magnolia 'Daybreak',3,642,#D16191,#F25F9E,Autres,#8a8a84,#9a9a92
+Malus domestica 'Redfree',MADORE,Pommier Redfree,Redfree Apple,3,643,#36E266,#83E29D,Autres,#8a8a84,#9a9a92
+Malus domestica 'Rouville',MADORO,Pommier domestique 'Rouville',Rouville Apple tree,3,644,#AB2123,#DD4043,Autres,#8a8a84,#9a9a92
+Malus x 'White Splendor',MAXXWS,Pommetier White Splendor,White Splendor Crab Apple,3,645,#2124AB,#4044DD,Autres,#8a8a84,#9a9a92
+Malus x Liberty,MAXXLB,Pommier Liberty,Liberty Apple,3,646,#B635AE,#F04CE7,Autres,#8a8a84,#9a9a92
+Nyssa sylvatica 'Majestic',NYSYMA,Gommier noir (Tulepo),Black gum Majestic tree,3,647,#26C5C1,#5AE2DF,Autres,#8a8a84,#9a9a92
+Phellodendron amurensis 'Maelio',PHAMME,Phellodendron de l'Amour Maelio,Maelio Amur Cork Tree,3,648,#21AB79,#40DDA5,Autres,#8a8a84,#9a9a92
+Picea glauca 'Pendula',PIGLPE,Épinette blanche pleureuse,Weeping White Spruce,3,649,#26C556,#5AE284,Autres,#8a8a84,#9a9a92
+"Picea omorika ""Gotelli Weeping""",PIOMGW,Épinette de Serbie Pleureuse,Weeping Serbian Spruce,3,650,#81CD1D,#A6DA62,Autres,#8a8a84,#9a9a92
+Picea pungens 'Blue Totem',PIPUBT,Épinette du Colorado 'Blue Totem',Blue Totem Colorado spruce,3,651,#25AB21,#45DD40,Autres,#8a8a84,#9a9a92
+Picea pungens 'Engelm',PIPUEN,Picea pungens 'Engelm',Picea pungens 'Engelm',3,652,#2E739E,#2FA4EE,Autres,#8a8a84,#9a9a92
+Picea pungens 'Pendula',PIPUPE,Épinette du Colorado pleureuse,Weeping Colorado Spruce,3,653,#4C57E6,#737ADE,Autres,#8a8a84,#9a9a92
+Pinus nigra Pyramidalis,PNNIPY,pin noir d'Autriche fastigié,black Austrian pine,3,654,#9912D9,#B169D3,Autres,#8a8a84,#9a9a92
+Populus alba 'Nivea',POALNI,Populus alba 'Nivea',Populus alba 'Nivea',3,655,#C55526,#E2835A,Autres,#8a8a84,#9a9a92
+Prunus avium 'Rainier',PRAVRA,Cerisier européen 'Rainier',Rainier cherry,3,656,#2D1DCD,#6C62DA,Autres,#8a8a84,#9a9a92
+Prunus persica 'Redhaven',PRPERH,Pêcher Redhaven,Redhaven Peach,3,657,#4B2BEE,#9688DD,Autres,#8a8a84,#9a9a92
+Prunus serrulata 'Kwanzan',PRSRKW,Cerisier du Japon Kwanzan,Kwanzan Flowering Japanese Cherry,3,658,#19B359,#49D483,Autres,#8a8a84,#9a9a92
+Pseudostuga,PS,Sapin de Douglas,Douglas Fir,3,659,#2B8DEE,#88B3DD,Autres,#8a8a84,#9a9a92
+Pyrus calleryana 'Autumn Blaze',PYCAAB,Pyrus calleryana 'Autumn Blaze',Pyrus calleryana 'Autumn Blaze',3,660,#D1C361,#F2DF5F,Autres,#8a8a84,#9a9a92
+Pyrus calleryana 'Redspire',PYCARE,Poirier 'Redspire',Redspire ornemental pear tree,3,661,#26C553,#5AE281,Autres,#8a8a84,#9a9a92
+Pyrus pyrifolia 'Shinseiki',PYPYSH,Poirier asiatique Shinseiki,Shinseiki asian Pear,3,662,#42F098,#79D8A8,Autres,#8a8a84,#9a9a92
+Rhamnus frangula,RHFR,Nerprun bourdaine,Glossy Buckthorn,3,663,#C261D1,#DE5FF2,Autres,#8a8a84,#9a9a92
+Salix matsudana,SAMA,Saule de Pékin,Hankow Willow,3,664,#759E2E,#A9EE2F,Autres,#8a8a84,#9a9a92
+Sorbus aria,SOAR,Alisier blanc,White Bear,3,665,#0FBDBA,#51CDCB,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Baileyi' (Shamrock TM),TICOBA,Tilleul à petites feuilles Shamrock,Shamrock linden,3,666,#B635B3,#F04CED,Autres,#8a8a84,#9a9a92
+Tsuga,TS,Pruche,Hemlock,3,667,#BD450F,#CD7851,Autres,#8a8a84,#9a9a92
+Ulmus americana l'Assomption,ULAMLA,Ulmus americana l'Assomption,ulmus americana l'Assomption,3,668,#5D36E2,#9983E2,Autres,#8a8a84,#9a9a92
+Ulmus davidiana,ULDA,Nom français,Japanese Elm,3,669,#2AAB21,#4BDD40,Autres,#8a8a84,#9a9a92
+Ulmus glabra,ULGL,Orme de montagne,Scotch Elm,3,670,#A9B319,#CCD449,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Brandywine',ACRUBR,érable rouge Brandywine,Brandiwine Red Maple,2,671,#21AB24,#40DD45,Autres,#8a8a84,#9a9a92
+Acer saccharum 'Bonfire',ACSCBO,Érable à sucre 'Bonfire',Bonfire sugar Maple,2,672,#D1618D,#F25F98,Autres,#8a8a84,#9a9a92
+Acer truncatum x plat. Crimson Sunset (TM),ACTRCS,érable Crimson Sunset,Crimson Sunset maple,2,673,#B31936,#D44963,Autres,#8a8a84,#9a9a92
+Acer x pseudosieboldianum North Wind,ACPUNW,Érable de Corée North Wind,North Wind maple,2,674,#AB2421,#DD4440,Autres,#8a8a84,#9a9a92
+Amelanchier alnifolia 'Northline',AMALNO,Amélanchier 'Northline',Northline saskatoon,2,675,#12D9A2,#69D3B6,Autres,#8a8a84,#9a9a92
+Carpinus,CA,Charme,Hornbeam,2,676,#8ED161,#9AF25F,Autres,#8a8a84,#9a9a92
+Carpinus betulus,CABE,Charme européen,European Hornbeam,2,677,#E64CB7,#DE73BD,Autres,#8a8a84,#9a9a92
+Cladrastis,CL,Virgilier,Yellow-wood,2,678,#D9128D,#D369AB,Autres,#8a8a84,#9a9a92
+Fagus sylvatica 'Purple Fountain',FASYPF,Hêtre commun Purple Fountain,Purple Fountain Beech,2,679,#CBF042,#C4D879,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Aurefolia',FREXAU,Fraxinus excelsior Aurefolia,Fraxinus excelsior Aurefolia,2,680,#C5265A,#E25A87,Autres,#8a8a84,#9a9a92
+Fraxinus ornus,FROR,Frêne à fleurs,Flowering ash,2,681,#6019B3,#8949D4,Autres,#8a8a84,#9a9a92
+Fraxinus pallisiae,FRPA,Frêne des Balkans,Pallis' ash,2,682,#54DE6B,#6CE580,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Superform',FRPESP,Fraxinus pennsylvanica Superform,Fraxinus pennsylvanica Superform,2,683,#EE2B84,#DD88AF,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'Warverley',FRPEWA,Frêne rouge 'Warverley',Red ash 'Warverley',2,684,#4DACCB,#71D3F4,Autres,#8a8a84,#9a9a92
+Fraxinus pennsylvanica 'subintergerrima',FRPESB,Fraxinus p. 'subintergerrima',Fraxinus p. 'subintergerrima',2,685,#E2DB36,#E2DE83,Autres,#8a8a84,#9a9a92
+Fraxinus sieboldiana,FRSI,Frêne de Siebold,Siebold ash,2,686,#9E372E,#EE3F2F,Autres,#8a8a84,#9a9a92
+Gymnocladus,GY,Chicot,Coffee Tree,2,687,#E64CBA,#DE73BF,Autres,#8a8a84,#9a9a92
+Juniperus virginiana 'Skyrocket',JNVISK,Genévrier de Virginie Skyrocket,Skyrocket Juniper,2,688,#26C559,#5AE286,Autres,#8a8a84,#9a9a92
+Koelreuteria paniculata,KOPA,Savonnier,Golden rain tree,2,689,#D91812,#D36C69,Autres,#8a8a84,#9a9a92
+Liquidambar styraciflua 'Slender Silhouette',LQSTSS,Copalme d'Amérique 'Slender Silhouette',American sweetgum 'Slender Silhouette',2,690,#C654DE,#D06CE5,Autres,#8a8a84,#9a9a92
+Magnolia 'Little Susan',MGXXLS,Magnolia 'Little Susan',Magnolia 'Little Susan',2,691,#3679E2,#83A8E2,Autres,#8a8a84,#9a9a92
+Magnolia fraseri 'Goldstar',MGFRGO,Magnolia Goldstar,Goldstar Magnolia,2,692,#2E9E81,#2FEEBC,Autres,#8a8a84,#9a9a92
+Malus 'White Angel',MAXXWA,Malus 'White Angel',Malus 'White Angel',2,693,#2E9E36,#2FEE3D,Autres,#8a8a84,#9a9a92
+Malus domestica 'Blushing Delight',MADOBD,Pommier colonnaire 'Blushing Delight',Blushing Delight columnar apple,2,694,#57B635,#77F04C,Autres,#8a8a84,#9a9a92
+Malus domestica 'Empire',MADOEM,Pommier Empire,Malus domestica 'Empire',2,695,#3EC3DA,#7DD8E8,Autres,#8a8a84,#9a9a92
+Malus domestica Antonovka,MAAN,Malus antonovka,Malus antonovka,2,696,#0F45BD,#5177CD,Autres,#8a8a84,#9a9a92
+Malus x ''Purple Gem'',MAXXPG,Pommetier Purple Gem,Purple Gem crabapple,2,697,#1292D9,#69ADD3,Autres,#8a8a84,#9a9a92
+Malus x 'Maybride',MAXXMB,Pommetier Maybride,Maybride Crab Apple,2,698,#C226C5,#DF5AE2,Autres,#8a8a84,#9a9a92
+Malus x 'Red Jade',MAXXRJ,Pommetier Red Jade,Red Jad Crab Apple,2,699,#E2D836,#E2DC83,Autres,#8a8a84,#9a9a92
+Malus x Gingergold,MAXXGI,Pommier Gingergold,Gingergold Apple,2,700,#61D17A,#5FF280,Autres,#8a8a84,#9a9a92
+Malus x Haralson,MAXXHA,Pommier Haralson,Haralson Apple,2,701,#265EC5,#5A8BE2,Autres,#8a8a84,#9a9a92
+Nyssa sylvatica ''Green Gable'',NYSYGG,Nyssa sylvestre Green Gable,Green Gable Blackgum,2,702,#E64CBD,#DE73C1,Autres,#8a8a84,#9a9a92
+Picea omorika Bruns,PIOMBR,épinette de Serbie,Serbian spruce,2,703,#DA3EC5,#E87DD9,Autres,#8a8a84,#9a9a92
+Picea pungens 'Bonny Blue',PIPUBL,Épinette du Colorado 'Bonny Blue','Bonny Blue' Blue Spruce,2,704,#BD0F47,#CD5179,Autres,#8a8a84,#9a9a92
+Pinus contorta,PNCO,Pinus contorta,Pinus contorta,2,705,#BD0FBB,#CD51CB,Autres,#8a8a84,#9a9a92
+Prunus americana,PRAM,Prunier d'Amérique,American Plum,2,706,#54DE66,#6CE57B,Autres,#8a8a84,#9a9a92
+Prunus armeniaca 'Tilton,PRARTI,Abricotier Tilton,Tilton apricot tree,2,707,#BF26C5,#DD5AE2,Autres,#8a8a84,#9a9a92
+Prunus besseyi x salicina 'Convoy',PRXXCO,Prunier-cerisier Convoy,'Convoy' chum,2,708,#5EDA3E,#93E87D,Autres,#8a8a84,#9a9a92
+Prunus besseyi x salicina 'Kappa',PRXXKA,Prunier-cerisier kappa,'Kappa' chum,2,709,#EE2B8C,#DD88B2,Autres,#8a8a84,#9a9a92
+Prunus besseyi x salicina 'Manor',PRXXMA,Prunier-cerisier 'Manor',Manor chum,2,710,#4DB1CB,#71D8F4,Autres,#8a8a84,#9a9a92
+Prunus domestica 'Mirabelle',PRDOMI,Prunier Mirabelle,Mirabelle Plum,2,711,#12D912,#69D369,Autres,#8a8a84,#9a9a92
+Prunus domestica 'Reine Claude',PRDORC,Prunier européen 'Reine Claude',European plum 'Reine Claude',2,712,#1D84CD,#62A8DA,Autres,#8a8a84,#9a9a92
+Prunus domestica 'Stanley',PRDOST,Prunier européen Stanley,European plum,2,713,#C7DA3E,#DBE87D,Autres,#8a8a84,#9a9a92
+Prunus maackii 'Klondike',PRMAKL,Ceriser de mandchourie 'Klondike',Klondike amur cherry,2,714,#2126AB,#4047DD,Autres,#8a8a84,#9a9a92
+Prunus salicina 'Early golden',PRSLEG,Prunier japonais early golden,Plum Early Golden,2,715,#2183AB,#40B0DD,Autres,#8a8a84,#9a9a92
+Prunus subhirtella,PRSU,Cerisier à fleurs Higan,Higan cherry,2,716,#4260F0,#7989D8,Autres,#8a8a84,#9a9a92
+Pyrus communis 'Ste-Sophie'',PYCOSS,Poirier européen Ste-Sophie,Ste-Sophie European Pear,2,717,#6036E2,#9A83E2,Autres,#8a8a84,#9a9a92
+Pyrus ussurensis 'Ure',PYUSUR,Poirier de Sibérie 'Ure',Ure Pear,2,718,#4C5AE6,#737CDE,Autres,#8a8a84,#9a9a92
+Pyrus ussuriensis Early Golden,PYUSEG,Poirier rustique Early Golden,Early Gold Pear,2,719,#CDA01D,#DABB62,Autres,#8a8a84,#9a9a92
+Robinia pseudoacacia 'Twisty Baby',ROPSTB,Robinia pseudoacacia 'Twisty Baby',Robinia pseudoacacia 'Twisty Baby',2,720,#EECB2B,#DDCE88,Autres,#8a8a84,#9a9a92
+Salix babylonica 'Crispa',SABACR,Salix babylonica 'Crispa',Salix babylonica 'Crispa',2,721,#0F4BBD,#517CCD,Autres,#8a8a84,#9a9a92
+Taxodium distichum 'Mickelson',TXDIMI,Cyprès chauve 'Mickelson',Mickelson bald cypress,2,722,#A1DE54,#AFE56C,Autres,#8a8a84,#9a9a92
+Tilia x europaea,TIER,Tilleul d'Europe,European Linden,2,723,#1DCD28,#62DA69,Autres,#8a8a84,#9a9a92
+Ulmus glabra 'Pendula',ULGLPE,Ulmus glabra 'Pendula',Ulmus g;abra 'Pendula',2,724,#42F095,#79D8A6,Autres,#8a8a84,#9a9a92
+Ulmus x Morton Red Tip (Danada Charm TM),ULXXMR,Orme Morton red Tip,Morton Red Tip (Danada Charm) elm,2,725,#64F042,#8BD879,Autres,#8a8a84,#9a9a92
+Acer grandidentatum,ACGA,Acer grandidentatum,Acer grandidentatum,1,726,#E64C4E,#DE7373,Autres,#8a8a84,#9a9a92
+Acer negundo 'Kelly's Gold',ACNEKG,Acer negundo Kelly's Gold,Acer negundo Kelly's Gold,1,727,#5A2BEE,#9D88DD,Autres,#8a8a84,#9a9a92
+Acer rubrum 'Karpick',ACRUKA,Érable rouge Karpick,Karpick Red Maple,1,728,#9BB319,#BFD449,Autres,#8a8a84,#9a9a92
+Aesculus indica,AEIN,Aesculus indica,Aesculus indica,1,729,#C52657,#E25A85,Autres,#8a8a84,#9a9a92
+Alnus incana ssp. rugosa,ALINRU,Aulne rugueux,Speckled alder,1,730,#6319B3,#8C49D4,Autres,#8a8a84,#9a9a92
+Amelanchier alnifolia 'Honeywood',AMALHO,Amélanchier 'Honeywood',Honeywood saskatoon,1,731,#B6E64C,#BDDE73,Autres,#8a8a84,#9a9a92
+Amelanchier alnifolia 'Martin',AMALMA,Amélanchier 'Martin',Martin saskatoon,1,732,#C526C2,#E25ADF,Autres,#8a8a84,#9a9a92
+Amelanchier alnifolia 'Obelisk',AMALOB,Amélanchier à feuilles d'aulnes 'Obelisk',Saskatoon Berry 'Obelisk',1,733,#B66D35,#F0934C,Autres,#8a8a84,#9a9a92
+Amelanchier laevis 'Prince Charles',AMLAPC,Amelanchier laevis 'Prince Charles',Amelanchier laevis 'Prince Charles',1,734,#F042C9,#D879C3,Autres,#8a8a84,#9a9a92
+Betula 'Penci-2' (Royal Frost TM),BEXXRF,Bouleau Royal Frost,Royal Frost Birch,1,735,#4DCB99,#71F4BF,Autres,#8a8a84,#9a9a92
+Betula nigra 'Crimson Frost',BENICF,Betula nigra Crimson Frost,Betula nigra Crimson Frost,1,736,#9E2E6E,#EE2F9C,Autres,#8a8a84,#9a9a92
+Betula nigra tiges multiples,BENT,Bouleau noir tiges multiples,multi-stem black birch,1,737,#61D17F,#5FF286,Autres,#8a8a84,#9a9a92
+Castanea Dentata,CSDE,Chataigner d'Amerique,American chestnut,1,738,#21AB7F,#40DDAB,Autres,#8a8a84,#9a9a92
+Celtis x 'Magnifica',CEXXMA,Micocoulier 'Magnifica','Magnifica' hackberry,1,739,#D91C12,#D36E69,Autres,#8a8a84,#9a9a92
+Chamaecyparis,CH,Chamaecyparis,False Cypress,1,740,#2E6E9E,#2F9DEE,Autres,#8a8a84,#9a9a92
+Cornus florida,CNFL,Cornouiller de Floride,Flowering dogwood,1,741,#2BEE55,#88DD9B,Autres,#8a8a84,#9a9a92
+Fraxinus americana 'Juglandifolia',FRAMJU,Frêne d'Amérique' 'Juglandifolia','Juglandifolia' White Ash,1,742,#EED62B,#DDD288,Autres,#8a8a84,#9a9a92
+Fraxinus angustifolia 'Raywood',FRANRA,Frêne à feuilles étroites 'Raywood','Raywood' Narrow-leaved ash,1,743,#6F9E2E,#9EEE2F,Autres,#8a8a84,#9a9a92
+Fraxinus angustifolia ssp. syriaca,FRANSY,Fraxinus angustifolia ssp. syriaca,Fraxinus angustifolia ssp. syriaca,1,744,#54DEC8,#6CE5D1,Autres,#8a8a84,#9a9a92
+Fraxinus bungeana,FRBU,Fraxinus bungeana,Fraxinus bungeana,1,745,#F0A142,#D8AC79,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Doorenbos',FREXDO,Frêne européen 'Doorenbos',Eurppean ash excelsior Doorenbos,1,746,#ABB635,#E2F04C,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Eureka',FREXEU,Frêne européen 'Eureka',European ash 'Eureka',1,747,#A91DCD,#C162DA,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Hessei',FREXHE,Frêne européen 'Hessei',European ash 'Hessei',1,748,#3EDA8C,#7DE8B3,Autres,#8a8a84,#9a9a92
+Fraxinus excelsior 'Kimberly',FREXKI,Frêne européen 'Kimberly',European ash 'Kimberly',1,749,#EE542B,#DD9A88,Autres,#8a8a84,#9a9a92
+Fraxinus longicuspis,FRLO,Fraxinus longicuspis,Fraxinus longicuspis,1,750,#4D58CB,#717CF4,Autres,#8a8a84,#9a9a92
+Fraxinus sogdiana,FRSO,Fraxinus sogdiana,Fraxinus sogdiana,1,751,#193AB3,#4966D4,Autres,#8a8a84,#9a9a92
+Fraxinus velutina,FRVE,Fraxinus velutina,Fraxinus velutina,1,752,#99DE54,#A9E56C,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Pendula',GIBIPE,Ginkgo à feuilles bilobées Pendula,Pendula Maidenhair Tree,1,753,#D52BEE,#D288DD,Autres,#8a8a84,#9a9a92
+Ginkgo biloba 'Sky Tower',GIBIST,Ginkgo à feuilles bilobées 'Sky Tower',Sky Tower Maidenhair Tree,1,754,#E26836,#E29E83,Autres,#8a8a84,#9a9a92
+Gleditsia t. 'Sungolzam'  (Sun Gold TM),GLTRSN,fevier Sunset Gold,Sunset Gold Honeylocust,1,755,#A042F0,#AC79D8,Autres,#8a8a84,#9a9a92
+Juglans regia,JURE,Noyer royal,English Walnut,1,756,#362E9E,#3E2FEE,Autres,#8a8a84,#9a9a92
+Juniperus scopulorum 'Wichita Blue',JNSCWB,Genevrier des Rocheuses,Rocky Mountain juniper,1,757,#D1C761,#F2E45F,Autres,#8a8a84,#9a9a92
+Larix kaempferi 'Diana',LAKADI,Méleze du Japon Diana,Diana Japanese Larch,1,758,#6736E2,#9E83E2,Autres,#8a8a84,#9a9a92
+Liriodendron,LI,Tulipier,Tulip Tree,1,759,#D17C61,#F2825F,Autres,#8a8a84,#9a9a92
+Magnolia x loebneri,MGLO,Magnolia de Loebner,Loebner Magnolia,1,760,#35B669,#4CF08E,Autres,#8a8a84,#9a9a92
+Malus coronaria,MACO,Pommetier odorant,Wild Crab Apple,1,761,#1712D9,#6C69D3,Autres,#8a8a84,#9a9a92
+Malus domestica 'Golden Treat',MADOGT,Pommier colonnaire 'Golden Treat',Golden Treat columnar apple,1,762,#EED22B,#DDD188,Autres,#8a8a84,#9a9a92
+Malus domestica 'Novamac',MADONO,Pommier 'Novamac',Novamac apple tree,1,763,#954DCB,#BB71F4,Autres,#8a8a84,#9a9a92
+Malus ioensis 'Plena',MAIOPL,Pommetier de l'Iowa,Plena Bechtel Crab Apple,1,764,#B319A2,#D449C5,Autres,#8a8a84,#9a9a92
+Malus robusta 'Erecta',MAROER,Pommetier Erecta,Nom anglais,1,765,#F09D42,#D8AB79,Autres,#8a8a84,#9a9a92
+Malus sp. September Ruby,MAXXSR,Pommier September Ruby,September Ruby Apple,1,766,#7B61D1,#815FF2,Autres,#8a8a84,#9a9a92
+Malus x 'Kelsey',MAXXKE,Pommetier Kelsey,Kelsey Carbapple,1,767,#54DE68,#6CE57E,Autres,#8a8a84,#9a9a92
+Malus x 'Scarlet' (Brandy Wine TM),MAXXSC,Malus Scarlet (Brandy Wine),Malus Scarlet (Brandy Wine),1,768,#E6A94C,#DEB373,Autres,#8a8a84,#9a9a92
+Malus x 'Velvet Pillar',MAXXVP,Pommetier Velvet Pillar,Velvet Pillar Crab Apple,1,769,#E26536,#E29D83,Autres,#8a8a84,#9a9a92
+Malus x Battleford,MAXXBA,Pommier x Battleford,Battleford Apple,1,770,#9E2E72,#EE2FA3,Autres,#8a8a84,#9a9a92
+Malus x Honeycrisp,MAXXHN,Pommier Honeycrisp,Honeycrisp Apple,1,771,#93D912,#AED369,Autres,#8a8a84,#9a9a92
+Malus x Richelieu,MAXXRI,pommier Richelieu,apple Richelieu,1,772,#1DCDA4,#62DABE,Autres,#8a8a84,#9a9a92
+Nyssa sylvatica ''Forest Fire'',NYSYFF,Nyssa sylvestre Forest Fire,Forest Fire Blackgum,1,773,#92D161,#A0F25F,Autres,#8a8a84,#9a9a92
+Piceau glauca 'North Pole',PIGLNP,Épinette blanche 'North Pole',White spruce 'North Pole',1,774,#2BEE4E,#88DD97,Autres,#8a8a84,#9a9a92
+Populus alba 'Bolleana',POALBO,Populus alba 'Bolleana',Populus alba 'Bolleana',1,775,#4CE6A7,#73DEB2,Autres,#8a8a84,#9a9a92
+Populus tremuloides 'Prairie Gold',POTRPG,Peuplier faix-tremble 'Prairie Gold',Prairie Gold Aspen,1,776,#C52660,#E25A8C,Autres,#8a8a84,#9a9a92
+Populus x canadensis 'Prairie Sky',POCAPS,Peuplier Prairie Sky,Prairie Sky Poplar,1,777,#3EDA87,#7DE8AF,Autres,#8a8a84,#9a9a92
+Populus x canadensis 'Serotina',POCASE,Populus x canadensis 'Serotina',Populus x canadensis 'Serotina',1,778,#EE4C2B,#DD9788,Autres,#8a8a84,#9a9a92
+Prunus armeniaca 'Puget Gold',PRARPG,Abricotier 'Puget Gold',Puget Gold apricot tree,1,779,#6194D1,#5FA2F2,Autres,#8a8a84,#9a9a92
+Prunus cerasus 'Carmine Jewel',PRCACJ,Cerisier acide 'Carmine Jewel',Carmine Jewel dwarf sour cherry tree,1,780,#9EDE54,#ADE56C,Autres,#8a8a84,#9a9a92
+Prunus cerasus 'North Star',PRCANS,Cerisier 'North Star',Dwarf sour cherry tree 'North Star',1,781,#61D1C3,#5FF2E0,Autres,#8a8a84,#9a9a92
+Prunus domestica 'Damas',PRDODA,Prunier européen 'Damas',Damas Plum tree,1,782,#5426C5,#825AE2,Autres,#8a8a84,#9a9a92
+Prunus sub. syriaca 'Compass',PRSYCO,Mirabellier 'Compass',Compass cherry-plum,1,783,#DE6554,#E57B6C,Autres,#8a8a84,#9a9a92
+Prunus tomentosa,PRTO,Cerisier tomenteux (de Nankin),Nanking cherry,1,784,#95D161,#A2F25F,Autres,#8a8a84,#9a9a92
+Prunus x cistena,PRXXCI,Prunus x cistena,Prunus x cistena,1,785,#1DCD2C,#62DA6C,Autres,#8a8a84,#9a9a92
+Prunus x yedoensis 'Akebono',PRXYAK,Cerisier décoratif Akebono,Daybreak Yoshino Cherry,1,786,#DA3E5F,#E87D94,Autres,#8a8a84,#9a9a92
+Pseudotsuga menziesii 'Pendula',PSMEPE,sapin Douglas pleureur,Weeping Douglas Fir,1,787,#21AB77,#40DDA2,Autres,#8a8a84,#9a9a92
+Pyrus calleryana 'Aristocrat',PYCAAR,Poirier de Chine 'Aristocrat',Aristocrat ornemental pear,1,788,#42D3F0,#79C8D8,Autres,#8a8a84,#9a9a92
+Pyrus communis,PYCO,Poirier commun,Common pear,1,789,#D91212,#D36969,Autres,#8a8a84,#9a9a92
+Pyrus communis ''Clapp''',PYCOCL,Poirier Clapp,Clapp pear,1,790,#DA3EC8,#E87DDB,Autres,#8a8a84,#9a9a92
+Pyrus communis Luscious,PYCOLU,Poirier Luscious,Luscious Pear,1,791,#27AB21,#48DD40,Autres,#8a8a84,#9a9a92
+Pyrus communis Summercrisp,PYCOSU,Poirier Summercrisp,Summercrisp Pear,1,792,#BD0F4A,#CD517B,Autres,#8a8a84,#9a9a92
+Pyrus pyrifolia 'Chojuro',PYPYCH,Poirier asiatique Chojuro,Chojuro Asian Pear,1,793,#A7B319,#CAD449,Autres,#8a8a84,#9a9a92
+Pyrus pyrifolia 'Nijisseiki',PYPYNI,Poirier asiatique 'Nijisseiki',Nijisseiki Asian pear,1,794,#C154DE,#CB6CE5,Autres,#8a8a84,#9a9a92
+Pyrus ussurensis 'Larinskaya',PYUSLA,Poirier de Sibérie 'Larinskaya',Larinskaya Pear,1,795,#D17861,#F27C5F,Autres,#8a8a84,#9a9a92
+Pyrus x 'Krazulya',PYXXKR,Poirier Krazulya,Krazulya pear,1,796,#2BEE4A,#88DD96,Autres,#8a8a84,#9a9a92
+Quercus cerris,QUCE,Chêne chevelu de Bougogne,"Bitter oak, Iron Oak",1,797,#2E9E7D,#2FEEB5,Autres,#8a8a84,#9a9a92
+Quercus robur x alba 'Skinny Genes',QUXXSG,Chêne 'Skinny Genes',Skinny Genes oak,1,798,#CB4DB2,#F471DA,Autres,#8a8a84,#9a9a92
+Rhus,RU,Sumac,Sumac,1,799,#4CE6A4,#73DEB0,Autres,#8a8a84,#9a9a92
+Salix sericea,SASE,Saule soyeux,Silky willow,1,800,#5BE64C,#7DDE73,Autres,#8a8a84,#9a9a92
+Salix x rubens,SAXXRU,Saule osier jaune,Hybrid crack willow,1,801,#9F1DCD,#BB62DA,Autres,#8a8a84,#9a9a92
+Sorbopyrus auricularis,SRAU,Poirier de Bollwiller,Bollwiller pear,1,802,#EE492B,#DD9588,Autres,#8a8a84,#9a9a92
+Syringa prestoniae,SYPR,Lilas de Preston,Preston's Lilac,1,803,#4DB3CB,#71DAF4,Autres,#8a8a84,#9a9a92
+Tilia cordata 'Green Globe',TICOGG,Tilia cordata 'Green Globe',Tilia cordata 'Green Globe',1,804,#5FCB4D,#84F471,Autres,#8a8a84,#9a9a92
+Tilia platyphyllos,TIPL,Tilleul à grandes feuilles,Large Leaved Lime,1,805,#97D161,#A5F25F,Autres,#8a8a84,#9a9a92
+Ulmus a. PMM-2,ULAMPM,Ulmus a. PMM-2,Ulmus a. PMM-2,1,806,#D1C161,#F2DC5F,Autres,#8a8a84,#9a9a92

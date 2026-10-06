@@ -1,7 +1,9 @@
-data/
+# Données brutes volumineuses (98 Mo) : non versionnées.
+# La couche gold (backend/data/gold/, ~10 Mo) EST versionnée pour le déploiement.
+backend/data/raw/
+
 .env
 .venv/
 __pycache__
-
-
 node_modules
+dist/
