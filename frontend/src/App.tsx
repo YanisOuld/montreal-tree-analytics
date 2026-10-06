@@ -4,19 +4,14 @@ import ControlPanel from "./components/ControlPanel";
 import TreeMap from "./components/TreeMap";
 import {
   fetchPoints,
-  fetchSpecies,
-  fetchTimeline,
+  type LegendEntry,
   type PointsPayload,
-  type Species,
-  type YearPoint,
 } from "./api";
 
 export type ViewMode = "annee" | "cumul";
 
 export default function App() {
   const [points, setPoints] = useState<PointsPayload | null>(null);
-  const [timeline, setTimeline] = useState<YearPoint[]>([]);
-  const [species, setSpecies] = useState<Species[]>([]);
 
   const [year, setYear] = useState<number | null>(null);
   const [arrondissement, setArrondissement] = useState("");
@@ -24,19 +19,17 @@ export default function App() {
   const [playing, setPlaying] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Chargement initial unique : tous les points (colonnaire + gzip) + référentiels.
+  // Chargement initial unique : tous les points (colonnaire + gzip).
   useEffect(() => {
     const ctrl = new AbortController();
-    Promise.all([
-      fetchPoints(ctrl.signal),
-      fetchTimeline(ctrl.signal),
-      fetchSpecies(8, ctrl.signal),
-    ])
-      .then(([pts, tl, sp]) => {
+    fetchPoints(ctrl.signal)
+      .then((pts) => {
         setPoints(pts);
-        setTimeline(tl);
-        setSpecies(sp);
-        if (tl.length > 0) setYear(tl[tl.length - 1].annee);
+        let mx = -Infinity;
+        for (let i = 0; i < pts.count; i++) {
+          if (pts.annee[i] > mx) mx = pts.annee[i];
+        }
+        if (mx > 0) setYear(mx);
       })
       .catch((e: unknown) => {
         if (!(e instanceof DOMException && e.name === "AbortError")) {
@@ -75,16 +68,48 @@ export default function App() {
 
   const togglePlay = () => setPlaying((p) => !p);
 
+  // Bornes du slider = min/max des années de plantation connues.
   const bounds = useMemo(() => {
-    if (timeline.length === 0) return { min: 1901, max: 2026 };
-    return { min: timeline[0].annee, max: timeline[timeline.length - 1].annee };
-  }, [timeline]);
+    if (!points) return { min: 1901, max: 2026 };
+    let mn = Infinity;
+    let mx = -Infinity;
+    for (let i = 0; i < points.count; i++) {
+      const a = points.annee[i];
+      if (a > 0) {
+        if (a < mn) mn = a;
+        if (a > mx) mx = a;
+      }
+    }
+    return {
+      min: Number.isFinite(mn) ? mn : 1901,
+      max: Number.isFinite(mx) ? mx : 2026,
+    };
+  }, [points]);
 
-  const current = useMemo(
-    () => timeline.find((p) => p.annee === year) ?? null,
-    [timeline, year],
-  );
+  // Statistiques recalculées selon les filtres actifs (année, arrondissement).
+  const stats = useMemo(() => {
+    if (!points || year == null) {
+      return { planted: 0, cumul: 0, noDate: 0 };
+    }
+    const arrIdx = arrondissement ? points.arronds.indexOf(arrondissement) : -1;
+    const { annee, arr, count } = points;
+    let planted = 0;
+    let cumul = 0;
+    let noDate = 0;
+    for (let i = 0; i < count; i++) {
+      if (arrIdx >= 0 && arr[i] !== arrIdx) continue;
+      const a = annee[i];
+      if (a <= 0) {
+        noDate++;
+        continue;
+      }
+      if (a === year) planted++;
+      if (a <= year) cumul++;
+    }
+    return { planted, cumul, noDate };
+  }, [points, year, arrondissement]);
 
+  // Indices visibles sur la carte selon le mode (année exacte / cumulé) + filtre.
   const visibleIdx = useMemo<number[]>(() => {
     if (!points || year == null) return [];
     const arrIdx = arrondissement ? points.arronds.indexOf(arrondissement) : -1;
@@ -92,14 +117,32 @@ export default function App() {
     const out: number[] = [];
     for (let i = 0; i < count; i++) {
       const a = annee[i];
-      const match =
-        mode === "cumul" ? a > 0 && a <= year : a === year;
+      const match = mode === "cumul" ? a > 0 && a <= year : a === year;
       if (!match) continue;
       if (arrIdx >= 0 && arr[i] !== arrIdx) continue;
       out.push(i);
     }
     return out;
   }, [points, year, arrondissement, mode]);
+
+  // Légende recalculée selon le filtre : top 8 espèces parmi les points visibles,
+  // avec leur couleur unique et leur effectif filtré.
+  const legend = useMemo<LegendEntry[]>(() => {
+    if (!points) return [];
+    const counts = new Map<number, number>();
+    for (const i of visibleIdx) {
+      const s = points.sp[i];
+      counts.set(s, (counts.get(s) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 15)
+      .map(([s, n]) => ({
+        name: points.species.name[s] ?? "—",
+        color: points.species.color[s] ?? "#888",
+        n,
+      }));
+  }, [points, visibleIdx]);
 
   return (
     <>
@@ -117,11 +160,12 @@ export default function App() {
           playing={playing}
           onTogglePlay={togglePlay}
           canPlay={year != null && year < bounds.max}
-          species={species}
+          legend={legend}
           stats={{
-            planted: current?.n_arbres ?? null,
-            cumul: current?.n_cumule ?? null,
+            planted: stats.planted,
+            cumul: stats.cumul,
             shown: visibleIdx.length,
+            noDate: stats.noDate,
           }}
         />
         <section id="carte" className="map-wrap">

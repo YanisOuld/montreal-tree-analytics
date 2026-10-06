@@ -128,8 +128,10 @@ function PointsCanvas({ data, idx }: { data: PointsPayload; idx: number[] }) {
       const i = bucket.current[cell];
       if (i >= 0 && i < dataRef.current.count) {
         const d = dataRef.current;
+        const annee = d.annee[i];
         const label =
-          (d.species.name[d.sp[i]] ?? "—") + (d.src[i] === 1 ? " (relevé)" : "");
+          (d.species.name[d.sp[i]] ?? "—") +
+          (annee > 0 ? ` · planté en ${annee}` : "");
         tip_.textContent = label;
         tip_.style.display = "block";
         tip_.style.left = `${x + 12}px`;

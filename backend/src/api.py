@@ -24,12 +24,10 @@ import config
 # colonnaire pré-sérialisé des points (clé "points_bytes").
 _DATA: dict[str, Any] = {}
 
-_SRC_MAP = {"plantation": 0, "releve": 1, "inconnue": 2}
-
 # Colonnes renvoyées pour la carte (payload minimal).
 _TREE_COLS = [
     "id", "longitude", "latitude", "essence_latin", "essence_fr",
-    "arrondissement", "annee_reference", "date_source", "dhp_cm",
+    "arrondissement", "annee_plantation", "dhp_cm",
     "color_hex", "color_hex_dark", "display_group",
     "display_color", "display_color_dark",
 ]
@@ -68,11 +66,13 @@ def _build_points_payload() -> bytes:
     arronds = sorted(trees["arrondissement"].dropna().unique().tolist())
     arr_index = {a: i for i, a in enumerate(arronds)}
 
+    # Axe temporel = ANNÉE DE PLANTATION. Les arbres sans date de plantation
+    # reçoivent 0 : ils ne correspondront à aucune année du slider, donc ne sont
+    # pas affichés (choix assumé de fidélité à la vraie date de plantation).
     df = trees[trees["has_coords"]].copy()
     df["_sp"] = df[config.SPECIES_KEY].map(sp_index).fillna(-1).astype("int32")
     df["_arr"] = df["arrondissement"].map(arr_index).fillna(-1).astype("int32")
-    df["_src"] = df["date_source"].map(_SRC_MAP).fillna(2).astype("int8")
-    df["_annee"] = df["annee_reference"].fillna(0).astype("int32")
+    df["_annee"] = df["annee_plantation"].fillna(0).astype("int32")
     df = df.sort_values("_sp", kind="stable")
 
     payload = {
@@ -87,7 +87,6 @@ def _build_points_payload() -> bytes:
         "annee": df["_annee"].tolist(),
         "sp": df["_sp"].tolist(),
         "arr": df["_arr"].tolist(),
-        "src": df["_src"].tolist(),
     }
     return json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
@@ -152,9 +151,9 @@ def _filter_trees(
     if geolocalises_only:
         mask &= df["has_coords"]
     if annee_min is not None:
-        mask &= df["annee_reference"].notna() & (df["annee_reference"] >= annee_min)
+        mask &= df["annee_plantation"].notna() & (df["annee_plantation"] >= annee_min)
     if annee_max is not None:
-        mask &= df["annee_reference"].notna() & (df["annee_reference"] <= annee_max)
+        mask &= df["annee_plantation"].notna() & (df["annee_plantation"] <= annee_max)
     if arrondissement:
         mask &= df["arrondissement"] == arrondissement
     if essence_latin:
@@ -197,8 +196,8 @@ def get_points(request: Request) -> Response:
 
 @app.get("/api/trees")
 def get_trees(
-    annee_min: int | None = Query(None, description="Année de référence minimale (plantation sinon relevé)"),
-    annee_max: int | None = Query(None, description="Année de référence maximale (plantation sinon relevé)"),
+    annee_min: int | None = Query(None, description="Année de plantation minimale"),
+    annee_max: int | None = Query(None, description="Année de plantation maximale"),
     arrondissement: str | None = None,
     essence_latin: str | None = None,
     remarquable: bool | None = None,

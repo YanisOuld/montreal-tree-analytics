@@ -93,14 +93,9 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
     df["annee_plantation"] = plant.dt.year.astype("Int16")
     df["annee_releve"] = releve.dt.year.astype("Int16")
 
-    # Année de référence pour l'axe temporel : la plantation si elle est connue,
-    # sinon le relevé (« recensé »). ~40 % des arbres n'ont pas de date de
-    # plantation ; ce repli porte la couverture temporelle de ~201 k à ~335 k.
-    df["annee_reference"] = df["annee_plantation"].fillna(df["annee_releve"])
-    source = pd.Series("inconnue", index=df.index, dtype="string")
-    source = source.mask(df["annee_releve"].notna(), "releve")
-    source = source.mask(df["annee_plantation"].notna(), "plantation")
-    df["date_source"] = source
+    # L'axe temporel de l'application est l'ANNÉE DE PLANTATION uniquement.
+    # Les arbres sans date de plantation (~40 %) ne sont donc pas situés dans le
+    # temps : c'est un choix assumé (fidélité à la vraie date de plantation).
 
     # Diamètre : négatif ou invraisemblable -> NA.
     dhp = pd.to_numeric(df["dhp_cm"], errors="coerce")
@@ -169,15 +164,15 @@ def build_species_colors(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_annual_counts(df: pd.DataFrame) -> pd.DataFrame:
-    """Agrégat annuel pour la timeline, basé sur l'année de référence
-    (plantation, sinon relevé) : arbres par an + cumul."""
+    """Agrégat annuel pour la timeline, basé sur l'année de PLANTATION :
+    arbres plantés par an + cumul."""
     counts = (
-        df.dropna(subset=["annee_reference"])
-        .groupby("annee_reference")
+        df.dropna(subset=["annee_plantation"])
+        .groupby("annee_plantation")
         .size()
         .rename("n_arbres")
         .reset_index()
-        .rename(columns={"annee_reference": "annee"})
+        .rename(columns={"annee_plantation": "annee"})
         .sort_values("annee")
     )
     counts["annee"] = counts["annee"].astype(int)

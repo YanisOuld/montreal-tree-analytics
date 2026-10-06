@@ -45,6 +45,13 @@ export interface TreesResponse {
   trees: Tree[];
 }
 
+/** Entrée de légende calculée côté client selon le filtre courant. */
+export interface LegendEntry {
+  name: string;
+  color: string;
+  n: number;
+}
+
 /** Payload colonnaire compact : tous les points, chargés une seule fois. */
 export interface PointsPayload {
   count: number;
@@ -52,18 +59,9 @@ export interface PointsPayload {
   arronds: string[]; // indexés par `arr`
   lon: number[];
   lat: number[];
-  annee: number[]; // année de référence (0 = inconnue)
+  annee: number[]; // année de plantation (0 = inconnue, non affiché)
   sp: number[]; // index d'espèce
   arr: number[]; // index d'arrondissement (-1 = inconnu)
-  src: number[]; // 0 plantation, 1 relevé, 2 inconnu
-}
-
-/** Point prêt à dessiner sur la carte (dérivé côté client). */
-export interface MapPoint {
-  lat: number;
-  lon: number;
-  color: string;
-  label: string;
 }
 
 async function getJSON<T>(url: string, signal?: AbortSignal): Promise<T> {
